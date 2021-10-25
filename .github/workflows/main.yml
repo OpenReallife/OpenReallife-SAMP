@@ -42,7 +42,7 @@ jobs:
           # Folder to upload from, must end with trailing slash /
           local-dir: ./gamemodes/
           # Path to upload to on the server. Must end with trailing slash /
-          server-dir: ./samp/gamemodes
+          server-dir: ./samp/gamemodes/
 
 
       # Runs a set of commands using the runners shell
