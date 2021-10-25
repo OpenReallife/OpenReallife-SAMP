@@ -30,11 +30,11 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           # ftp server
-          server: ms2480.gamedata.io
+          server: ${{ secrets.FTP_HOSTNAME }}
           # ftp username
-          username: ni6595017_1
+          username: ${{ secrets.FTP_USERNAME }}
           # ftp password
-          password: j9YNW9sx
+          password: ${{ secrets.FTP_PASSWORD }}
           # Server port to connect to (read your web hosts docs)
           port: 21
           # Folder to upload from, must end with trailing slash /
