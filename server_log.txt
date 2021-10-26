@@ -43500,3 +43500,87 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [10:00:40] serverVehID: 10, ModelID: 427
 [10:00:40] serverVehID: 11, ModelID: 601
 [10:00:40] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:01:42] filterscripts = ""  (string)
+[13:01:42] 
+[13:01:42] Server Plugins
+[13:01:42] --------------
+[13:01:42]  Loading plugin: mysql
+[13:01:42]  >> plugin.mysql: R41-4 successfully loaded.
+[13:01:42]   Loaded.
+[13:01:42]  Loading plugin: sscanf
+[13:01:42] 
+
+[13:01:42]  ===============================
+
+[13:01:42]       sscanf plugin loaded.     
+
+[13:01:42]          Version:  2.8.3        
+
+[13:01:42]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:01:42]  ===============================
+
+[13:01:42]   Loaded.
+[13:01:42]  Loading plugin: streamer
+[13:01:42] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[13:01:42]   Loaded.
+[13:01:42]  Loading plugin: env
+[13:01:42]   Loaded.
+[13:01:42]  Loaded 4 plugins.
+
+[13:01:42] 
+[13:01:42] Filterscripts
+[13:01:42] ---------------
+[13:01:42]   Loaded 0 filterscripts.
+
+[13:01:42] OnGameModeInit()
+[13:01:43] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[13:01:43] Disabled SinglePlayer entities
+[13:01:43] Initial World time set to 13
+[13:01:43] Weather set to ID 2
+[13:01:43] Loaded 5 Entrance/Exit Pickups
+[13:01:43] 
+-------------------------------------------------------------------
+[13:01:43]  OpenReallife | v21w16a | (C) 2021
+[13:01:43]  https://github.com/ChristianLutzCL/OpenReallife-SAMP
+[13:01:43] ---------------------------------------------------------------------
+
+[13:01:43] Number of vehicle models: 0
+[13:01:43] Number of Carshop Cars: 10
+[13:01:43] Number of Cars: 12
+[13:01:43] 1
+[13:01:43] 2
+[13:01:43] 3
+[13:01:43] 4
+[13:01:43] 5
+[13:01:43] 6
+[13:01:43] 7
+[13:01:43] 8
+[13:01:43] 9
+[13:01:43] 10
+[13:01:43] 14
+[13:01:43] 15
+[13:01:43] serverVehID: 1, ModelID: 596
+[13:01:43] serverVehID: 2, ModelID: 596
+[13:01:43] serverVehID: 3, ModelID: 596
+[13:01:43] serverVehID: 4, ModelID: 437
+[13:01:43] serverVehID: 5, ModelID: 490
+[13:01:43] serverVehID: 6, ModelID: 490
+[13:01:43] serverVehID: 7, ModelID: 596
+[13:01:43] serverVehID: 8, ModelID: 596
+[13:01:43] serverVehID: 9, ModelID: 596
+[13:01:43] serverVehID: 10, ModelID: 427
+[13:01:43] serverVehID: 11, ModelID: 601
+[13:01:43] Cars loaded

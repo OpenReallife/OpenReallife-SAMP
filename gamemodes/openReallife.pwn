@@ -18,7 +18,9 @@
 #include <streamer>
 #include <env>
 
-//========== Static Variables ==========
+#include "../include/mysql_connect.inc" // Database Auth Information
+
+//========== Constants ==========
 //Server Variables
 #define SERVER_NAME "OpenReallife Server"
 
@@ -191,7 +193,7 @@ new PlayerText:lockedLabel[MAX_PLAYERS];
 new globalUsername[MAX_PLAYER_NAME + 1];
 new globalString[MAX_PLAYER_NAME + 128];
 new bool:isOnDuty;
-new SQL_HOSTNAME[600], SQL_USERNAME[128], SQL_PASSWORD[128], SQL_DATABASE[128];
+//new SQL_HOSTNAME[128], SQL_USERNAME[128], SQL_PASSWORD[128], SQL_DATABASE[128];
 
 //========== Forwards ==========
 forward OnUserCheck(playerid);
@@ -223,10 +225,12 @@ public OnGameModeInit()
 	printf("OnGameModeInit()");
 	SetGameModeText("Reallife by OpenReallife");
 	
+	/*
 	GetEnv("SQL_HOSTNAME", SQL_HOSTNAME, sizeof SQL_HOSTNAME);
 	GetEnv("SQL_DATABASE", SQL_DATABASE, sizeof SQL_DATABASE);
 	GetEnv("SQL_USERNAME", SQL_USERNAME, sizeof SQL_USERNAME);
 	GetEnv("SQL_PASSWORD", SQL_PASSWORD, sizeof SQL_PASSWORD);
+	*/
 	
 	//Database
 	dbhandle = mysql_connect(SQL_HOSTNAME, SQL_USERNAME, SQL_PASSWORD, SQL_DATABASE);
