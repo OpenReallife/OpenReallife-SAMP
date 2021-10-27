@@ -8,11 +8,9 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
-
 ## Quickstart Local Pawno Development
 
 Nachfolgend wird erklärt, wie man einen SA:MP Development Server lokal aufsetzt und startet.
-
 
 ## Server konfigurieren
 
@@ -45,14 +43,13 @@ Navigiere zu `/samp`
 
 - Datei Speichern
 
-
 ## Server starten
 
 Navigiere zu `/samp`
 
 - Starte `samp-server.exe`
 - Überprüfe, ob der Server korrekt gestartet wurde
-
+  <img height=500 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SampServer.png"/>
 
 ## Server im Launcher hinzufügen
 
@@ -61,3 +58,4 @@ Navigiere zu `/samp`
 - Trage die Serverdaten ein: `localhost:7777`
 - Drücke Button `OK`
 - Der Development Server wird in der Serverliste im Tab `Favorites` angezeigt
+  <img height=500 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SAMPLauncher.png"/>

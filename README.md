@@ -7,11 +7,11 @@
 </p>
 
 <h3 align="center">
-  <a href="https://github.com/benawad/dogehouse/blob/staging/CONTRIBUTING.md">Contribute</a>
+  <a href="https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md">Contribute</a>
   <span> · </span>
-  <a href="https://discord.gg/82HzQCJCDg">Community</a>
+  <a href="#">Community</a>
   <span> · </span>
-  <a href="https://github.com/FotieMConstant/dogehouse-docs">Documentation</a>
+  <a href="#">Documentation</a>
 </h3>
 
 ---
@@ -21,7 +21,7 @@
 Das Game-Server Repository für den OpenReallife SA:MP Server. :rocket:
 
 
-### Zielsetzung
+## Zielsetzung
 
 Dieses Projekt verfolgt das Ziel, einen SA:MP Reallife Server als OpenSource Projekt bereitzustellen.
 

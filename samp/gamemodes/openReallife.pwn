@@ -1,14 +1,17 @@
-// ####################################################################################################################################
-// #
-// # 	OpenReallife | (C) 2021
-// #
-// #    SA:MP Reallife Script as OpenSource project.
-// #    Let's create the best Reallife Script for SA:MP!
-// #
-// #    First Version: v21w14a / 10.04.2021
-// #
-// ####################################################################################################################################
-
+/*
+####################################################################################################################################
+#
+# 	OpenReallife | (C) 2021
+#   https://github.com/OpenReallife/OpenReallife-SAMP
+#
+#   SA:MP Reallife Script as OpenSource project.
+#   Let's create the best Reallife Script for SA:MP!
+#
+#   First Version: v21w14a / 10.04.2021
+#   Current Version: v21w43a / 27.10.2021
+#
+####################################################################################################################################
+*/
 
 //========== Includes ==========
 #include <a_samp>
@@ -25,7 +28,7 @@
 
 //Developer Variables
 #define DEVELOPER_NAME "OpenReallife"
-#define SCRIPT_VERSION "v21w16a" //v[Year]w[Calendarweek][Revision]
+#define SCRIPT_VERSION "v21w43a" //v[Year]w[Calendarweek][Revision]
 #define COPYRIGHT_YEAR "2021"
 
 //Colors
@@ -192,7 +195,7 @@ new PlayerText:lockedLabel[MAX_PLAYERS];
 new globalUsername[MAX_PLAYER_NAME + 1];
 new globalString[MAX_PLAYER_NAME + 128];
 new bool:isOnDuty;
-//new SQL_HOSTNAME[128], SQL_USERNAME[128], SQL_PASSWORD[128], SQL_DATABASE[128];
+
 
 //========== Forwards ==========
 forward OnUserCheck(playerid);
