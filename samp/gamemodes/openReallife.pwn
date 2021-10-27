@@ -1,9 +1,9 @@
 // ####################################################################################################################################
 // #
-// # 	OpenReallifeScript | (C) 2021
+// # 	OpenReallife | (C) 2021
 // #
 // #    SA:MP Reallife Script as OpenSource project.
-// #    Let's create the best Reallife Script for SA:MP
+// #    Let's create the best Reallife Script for SA:MP!
 // #
 // #    First Version: v21w14a / 10.04.2021
 // #
@@ -16,7 +16,6 @@
 #include <sscanf2>
 #include <a_mysql>
 #include <streamer>
-#include <env>
 
 #include "../include/mysql_connect.inc" // Database Auth Information
 
@@ -215,99 +214,98 @@ main()
 {
 	print("\n-------------------------------------------------------------------");
 	print(" " DEVELOPER_NAME " | " SCRIPT_VERSION " | (C) " COPYRIGHT_YEAR);
-	print(" https://github.com/ChristianLutzCL/OpenReallife-SAMP");
-	print("---------------------------------------------------------------------\n");
+	print("-------------------------------------------------------------------\n");
 }
 
 
 public OnGameModeInit()
 {
-	printf("OnGameModeInit()");
+	printf("Starting Server...");
 	SetGameModeText("Reallife by OpenReallife");
-	
-	/*
-	GetEnv("SQL_HOSTNAME", SQL_HOSTNAME, sizeof SQL_HOSTNAME);
-	GetEnv("SQL_DATABASE", SQL_DATABASE, sizeof SQL_DATABASE);
-	GetEnv("SQL_USERNAME", SQL_USERNAME, sizeof SQL_USERNAME);
-	GetEnv("SQL_PASSWORD", SQL_PASSWORD, sizeof SQL_PASSWORD);
-	*/
 	
 	//Database
 	dbhandle = mysql_connect(SQL_HOSTNAME, SQL_USERNAME, SQL_PASSWORD, SQL_DATABASE);
 	mysql_log(ALL);
+	printf("[INIT] Database");
 	
 	if(mysql_errno() != 0)
 	{
-	    printf("[DATABASE]: Connection failed to '%s'...", SQL_DATABASE);
+	    printf("[DATABASE]: Connection failed to '%s'", SQL_DATABASE);
+	    printf("Server stopped!");
 	}
 	else
 	{
-	    printf("[DATABASE]: Connection established to '%s'...", SQL_DATABASE);
-	}
-	
-	AddPlayerClass(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	
-	//Disabling SingePlayer entities
-	ShowPlayerMarkers(PLAYER_MARKERS_MODE_OFF);
-	SetNameTagDrawDistance(20.0);
-	EnableStuntBonusForAll(0);
-	DisableInteriorEnterExits();
-	ManualVehicleEngineAndLights();
-	printf("Disabled SinglePlayer entities");
-	
-	//Configure World
-	new h, m, s;
-	gettime(h, m, s);
-	SetWorldTime(h);
-	printf("Initial World time set to %i", h);
-	
-	SetWeather(2);
-	printf("Weather set to ID 2");
-	
-	setServerWelcomeDisplay();
-	loadPDObjects();
-	
-	
-	//Load Building entrance pickups
-	for(new i = 0; i < sizeof(bInfo); i++)
-	{
-	    //Entrance
- 		CreatePickup(1239, 1, bInfo[i][b_x], bInfo[i][b_y], bInfo[i][b_z]);
- 		Create3DTextLabel(bInfo[i][b_name], bInfo[i][b_color], bInfo[i][b_x], bInfo[i][b_y], bInfo[i][b_z], 10, 0, 0);
- 		
- 		//Exit (interior)
- 		CreatePickup(1239, 1, bInfo[i][b_ix], bInfo[i][b_iy], bInfo[i][b_iz]);
-	}
-	printf("Loaded %i Entrance/Exit Pickups", sizeof(bInfo));
-	
-	
-	//DEVELOPMENT Duty Pickup
-	CreatePickup(1239, 1, 256.4681, 69.4044, 1003.6406); //LSPD Duty Pickup
-	Create3DTextLabel("Verwende /duty um den Dienst zu starten oder zu beenden.", WHITE, 256.4681, 69.4044, 1003.6406, 3, 0, 1);
+	    printf("[DATABASE]: Connection established to '%s'", SQL_DATABASE);
+	    
+	    AddPlayerClass(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+		//Disabling SingePlayer entities
+		ShowPlayerMarkers(PLAYER_MARKERS_MODE_OFF);
+		SetNameTagDrawDistance(20.0);
+		EnableStuntBonusForAll(0);
+		DisableInteriorEnterExits();
+		ManualVehicleEngineAndLights();
+		printf("[INIT] Disable SinglePlayer entities");
+
+		//Configure World
+		new h, m, s;
+		gettime(h, m, s);
+		SetWorldTime(h);
+		printf("[INIT] World time (Set to %i)", h);
+
+		SetWeather(2);
+		printf("[INIT] Weather (ID 2)");
+
+		setServerWelcomeDisplay();
+		loadPDObjects();
 
 
-	//Timer
-	SetTimer("second", 1000, true);
-	SetTimer("hour", 3600000, true);
-	SetTimer("speedometerTimer", 100, true);
-	
-	
-	//Clock
-	clockLabel = TextDrawCreate(548.000000, 23.000000, "00:00");
-	TextDrawBackgroundColor(clockLabel, 255);
-	TextDrawFont(clockLabel, 3);
-	TextDrawLetterSize(clockLabel, 0.659999, 2.000000);
-	TextDrawColor(clockLabel, -1);
-	TextDrawSetOutline(clockLabel, 1);
-	TextDrawSetProportional(clockLabel, 1);
-	TextDrawSetSelectable(clockLabel, 0);
-	
-	new query[256];
-	mysql_format(dbhandle, query, sizeof(query), "SELECT * FROM carshop");
-	mysql_tquery(dbhandle, query, "OnCarshopResponse");
-	
-	mysql_format(dbhandle, query, sizeof(query), "SELECT * FROM vehicle");
-	mysql_tquery(dbhandle, query, "initVehicles");
+		//Load Building entrance pickups
+		for(new i = 0; i < sizeof(bInfo); i++)
+		{
+		    //Entrance
+	 		CreatePickup(1239, 1, bInfo[i][b_x], bInfo[i][b_y], bInfo[i][b_z]);
+	 		Create3DTextLabel(bInfo[i][b_name], bInfo[i][b_color], bInfo[i][b_x], bInfo[i][b_y], bInfo[i][b_z], 10, 0, 0);
+
+	 		//Exit (interior)
+	 		CreatePickup(1239, 1, bInfo[i][b_ix], bInfo[i][b_iy], bInfo[i][b_iz]);
+		}
+		printf("[INIT] %i Entrance/Exit Pickups", sizeof(bInfo));
+
+
+		//DEVELOPMENT Duty Pickup
+		CreatePickup(1239, 1, 256.4681, 69.4044, 1003.6406); //LSPD Duty Pickup
+		Create3DTextLabel("Verwende /duty um den Dienst zu starten oder zu beenden.", WHITE, 256.4681, 69.4044, 1003.6406, 3, 0, 1);
+
+
+		//Timer
+		SetTimer("second", 1000, true);
+		SetTimer("hour", 3600000, true);
+		SetTimer("speedometerTimer", 100, true);
+		printf("[INIT] Timer");
+
+
+		//Clock
+		clockLabel = TextDrawCreate(548.000000, 23.000000, "00:00");
+		TextDrawBackgroundColor(clockLabel, 255);
+		TextDrawFont(clockLabel, 3);
+		TextDrawLetterSize(clockLabel, 0.659999, 2.000000);
+		TextDrawColor(clockLabel, -1);
+		TextDrawSetOutline(clockLabel, 1);
+		TextDrawSetProportional(clockLabel, 1);
+		TextDrawSetSelectable(clockLabel, 0);
+		printf("[INIT] Clock");
+
+		new query[256];
+		mysql_format(dbhandle, query, sizeof(query), "SELECT * FROM carshop");
+		mysql_tquery(dbhandle, query, "OnCarshopResponse");
+
+		mysql_format(dbhandle, query, sizeof(query), "SELECT * FROM vehicle");
+		mysql_tquery(dbhandle, query, "initVehicles");
+
+
+		printf("Server started!");
+	}
 	
 	return 1;
 }

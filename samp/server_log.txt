@@ -43584,3 +43584,941 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [13:01:43] serverVehID: 10, ModelID: 427
 [13:01:43] serverVehID: 11, ModelID: 601
 [13:01:43] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:20:57] filterscripts = ""  (string)
+[09:20:57] 
+[09:20:57] Server Plugins
+[09:20:57] --------------
+[09:20:57]  Loading plugin: mysql
+[09:20:57]  >> plugin.mysql: R41-4 successfully loaded.
+[09:20:57]   Loaded.
+[09:20:57]  Loading plugin: sscanf
+[09:20:57] 
+
+[09:20:57]  ===============================
+
+[09:20:57]       sscanf plugin loaded.     
+
+[09:20:57]          Version:  2.8.3        
+
+[09:20:57]   (c) 2018 Alex "Y_Less" Cole  
+
+[09:20:57]  ===============================
+
+[09:20:57]   Loaded.
+[09:20:57]  Loading plugin: streamer
+[09:20:57] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[09:20:57]   Loaded.
+[09:20:57]  Loading plugin: env
+[09:20:57]   Loaded.
+[09:20:57]  Loaded 4 plugins.
+
+[09:20:57] 
+[09:20:57] Filterscripts
+[09:20:57] ---------------
+[09:20:57]   Loaded 0 filterscripts.
+
+[09:20:57] OnGameModeInit()
+[09:20:58] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[09:20:58] Disabled SinglePlayer entities
+[09:20:58] Initial World time set to 9
+[09:20:58] Weather set to ID 2
+[09:20:58] Loaded 5 Entrance/Exit Pickups
+[09:20:58] 
+-------------------------------------------------------------------
+[09:20:58]  OpenReallife | v21w16a | (C) 2021
+[09:20:58]  https://github.com/ChristianLutzCL/OpenReallife-SAMP
+[09:20:58] ---------------------------------------------------------------------
+
+[09:20:58] Number of vehicle models: 0
+[09:20:58] Number of Carshop Cars: 10
+[09:20:58] Number of Cars: 12
+[09:20:58] 1
+[09:20:58] 2
+[09:20:58] 3
+[09:20:58] 4
+[09:20:58] 5
+[09:20:58] 6
+[09:20:58] 7
+[09:20:58] 8
+[09:20:58] 9
+[09:20:58] 10
+[09:20:58] 14
+[09:20:58] 15
+[09:20:58] serverVehID: 1, ModelID: 596
+[09:20:58] serverVehID: 2, ModelID: 596
+[09:20:58] serverVehID: 3, ModelID: 596
+[09:20:58] serverVehID: 4, ModelID: 437
+[09:20:58] serverVehID: 5, ModelID: 490
+[09:20:58] serverVehID: 6, ModelID: 490
+[09:20:58] serverVehID: 7, ModelID: 596
+[09:20:58] serverVehID: 8, ModelID: 596
+[09:20:58] serverVehID: 9, ModelID: 596
+[09:20:58] serverVehID: 10, ModelID: 427
+[09:20:58] serverVehID: 11, ModelID: 601
+[09:20:58] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:28:28] filterscripts = ""  (string)
+[10:28:28] 
+[10:28:28] Server Plugins
+[10:28:28] --------------
+[10:28:28]  Loading plugin: mysql
+[10:28:28]  >> plugin.mysql: R41-4 successfully loaded.
+[10:28:28]   Loaded.
+[10:28:28]  Loading plugin: sscanf
+[10:28:28] 
+
+[10:28:28]  ===============================
+
+[10:28:28]       sscanf plugin loaded.     
+
+[10:28:28]          Version:  2.8.3        
+
+[10:28:28]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:28:28]  ===============================
+
+[10:28:28]   Loaded.
+[10:28:28]  Loading plugin: streamer
+[10:28:28] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:28:28]   Loaded.
+[10:28:28]  Loaded 3 plugins.
+
+[10:28:28] 
+[10:28:28] Filterscripts
+[10:28:28] ---------------
+[10:28:28]   Loaded 0 filterscripts.
+
+[10:28:28] OnGameModeInit()
+[10:28:29] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:28:29] Disabled SinglePlayer entities
+[10:28:29] Initial World time set to 10
+[10:28:29] Weather set to ID 2
+[10:28:29] Loaded 5 Entrance/Exit Pickups
+[10:28:29] 
+-------------------------------------------------------------------
+[10:28:29]  OpenReallife | v21w16a | (C) 2021
+[10:28:29] ---------------------------------------------------------------------
+
+[10:28:29] Number of vehicle models: 0
+[10:28:29] Number of Carshop Cars: 10
+[10:28:29] Number of Cars: 12
+[10:28:29] 1
+[10:28:29] 2
+[10:28:29] 3
+[10:28:29] 4
+[10:28:29] 5
+[10:28:29] 6
+[10:28:29] 7
+[10:28:29] 8
+[10:28:29] 9
+[10:28:29] 10
+[10:28:29] 14
+[10:28:29] 15
+[10:28:29] serverVehID: 1, ModelID: 596
+[10:28:29] serverVehID: 2, ModelID: 596
+[10:28:29] serverVehID: 3, ModelID: 596
+[10:28:29] serverVehID: 4, ModelID: 437
+[10:28:29] serverVehID: 5, ModelID: 490
+[10:28:29] serverVehID: 6, ModelID: 490
+[10:28:29] serverVehID: 7, ModelID: 596
+[10:28:29] serverVehID: 8, ModelID: 596
+[10:28:29] serverVehID: 9, ModelID: 596
+[10:28:29] serverVehID: 10, ModelID: 427
+[10:28:29] serverVehID: 11, ModelID: 601
+[10:28:29] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:28:58] filterscripts = ""  (string)
+[10:28:58] 
+[10:28:58] Server Plugins
+[10:28:58] --------------
+[10:28:58]  Loading plugin: mysql
+[10:28:58]  >> plugin.mysql: R41-4 successfully loaded.
+[10:28:58]   Loaded.
+[10:28:58]  Loading plugin: sscanf
+[10:28:58] 
+
+[10:28:58]  ===============================
+
+[10:28:58]       sscanf plugin loaded.     
+
+[10:28:58]          Version:  2.8.3        
+
+[10:28:58]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:28:58]  ===============================
+
+[10:28:58]   Loaded.
+[10:28:58]  Loading plugin: streamer
+[10:28:58] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:28:58]   Loaded.
+[10:28:58]  Loaded 3 plugins.
+
+[10:28:58] 
+[10:28:58] Filterscripts
+[10:28:58] ---------------
+[10:28:58]   Loaded 0 filterscripts.
+
+[10:28:58] OnGameModeInit()
+[10:28:58] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:28:58] Disabled SinglePlayer entities
+[10:28:58] Initial World time set to 10
+[10:28:58] Weather set to ID 2
+[10:28:58] Loaded 5 Entrance/Exit Pickups
+[10:28:58] 
+-------------------------------------------------------------------
+[10:28:58]  OpenReallife | v21w16a | (C) 2021
+[10:28:58] ---------------------------------------------------------------------
+
+[10:28:58] Number of vehicle models: 0
+[10:28:58] Number of Carshop Cars: 10
+[10:28:58] Number of Cars: 12
+[10:28:58] 1
+[10:28:58] 2
+[10:28:58] 3
+[10:28:58] 4
+[10:28:58] 5
+[10:28:58] 6
+[10:28:58] 7
+[10:28:58] 8
+[10:28:58] 9
+[10:28:58] 10
+[10:28:58] 14
+[10:28:58] 15
+[10:28:58] serverVehID: 1, ModelID: 596
+[10:28:58] serverVehID: 2, ModelID: 596
+[10:28:58] serverVehID: 3, ModelID: 596
+[10:28:58] serverVehID: 4, ModelID: 437
+[10:28:58] serverVehID: 5, ModelID: 490
+[10:28:58] serverVehID: 6, ModelID: 490
+[10:28:58] serverVehID: 7, ModelID: 596
+[10:28:58] serverVehID: 8, ModelID: 596
+[10:28:58] serverVehID: 9, ModelID: 596
+[10:28:58] serverVehID: 10, ModelID: 427
+[10:28:58] serverVehID: 11, ModelID: 601
+[10:28:58] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:34:11] filterscripts = ""  (string)
+[10:34:11] 
+[10:34:11] Server Plugins
+[10:34:11] --------------
+[10:34:11]  Loading plugin: mysql
+[10:34:11]  >> plugin.mysql: R41-4 successfully loaded.
+[10:34:11]   Loaded.
+[10:34:11]  Loading plugin: sscanf
+[10:34:11] 
+
+[10:34:11]  ===============================
+
+[10:34:11]       sscanf plugin loaded.     
+
+[10:34:11]          Version:  2.8.3        
+
+[10:34:11]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:34:11]  ===============================
+
+[10:34:11]   Loaded.
+[10:34:11]  Loading plugin: streamer
+[10:34:11] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:34:11]   Loaded.
+[10:34:11]  Loaded 3 plugins.
+
+[10:34:11] 
+[10:34:11] Filterscripts
+[10:34:11] ---------------
+[10:34:11]   Loaded 0 filterscripts.
+
+[10:34:11] Start Server...
+[10:34:11] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:34:11] Disabled SinglePlayer entities
+[10:34:11] Initialize World time (Set to 10)
+[10:34:11] Initialize Weather (ID 2)
+[10:34:11] Initialize 5 Entrance/Exit Pickups
+[10:34:11] Initialize Timer
+[10:34:11] Initialize Clock
+[10:34:11] 
+-------------------------------------------------------------------
+[10:34:11]  OpenReallife | v21w16a | (C) 2021
+[10:34:11] --------------------------------------------------------------------
+
+[10:34:11] Number of vehicle models: 0
+[10:34:11] Number of Carshop Cars: 10
+[10:34:11] Number of Cars: 12
+[10:34:11] 1
+[10:34:11] 2
+[10:34:11] 3
+[10:34:11] 4
+[10:34:11] 5
+[10:34:11] 6
+[10:34:11] 7
+[10:34:11] 8
+[10:34:11] 9
+[10:34:11] 10
+[10:34:11] 14
+[10:34:11] 15
+[10:34:11] serverVehID: 1, ModelID: 596
+[10:34:11] serverVehID: 2, ModelID: 596
+[10:34:11] serverVehID: 3, ModelID: 596
+[10:34:11] serverVehID: 4, ModelID: 437
+[10:34:11] serverVehID: 5, ModelID: 490
+[10:34:11] serverVehID: 6, ModelID: 490
+[10:34:11] serverVehID: 7, ModelID: 596
+[10:34:11] serverVehID: 8, ModelID: 596
+[10:34:11] serverVehID: 9, ModelID: 596
+[10:34:11] serverVehID: 10, ModelID: 427
+[10:34:11] serverVehID: 11, ModelID: 601
+[10:34:11] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:38:40] filterscripts = ""  (string)
+[10:38:40] 
+[10:38:40] Server Plugins
+[10:38:40] --------------
+[10:38:40]  Loading plugin: mysql
+[10:38:40]  >> plugin.mysql: R41-4 successfully loaded.
+[10:38:40]   Loaded.
+[10:38:40]  Loading plugin: sscanf
+[10:38:40] 
+
+[10:38:40]  ===============================
+
+[10:38:40]       sscanf plugin loaded.     
+
+[10:38:40]          Version:  2.8.3        
+
+[10:38:40]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:38:40]  ===============================
+
+[10:38:40]   Loaded.
+[10:38:40]  Loading plugin: streamer
+[10:38:40] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:38:40]   Loaded.
+[10:38:40]  Loaded 3 plugins.
+
+[10:38:40] 
+[10:38:40] Filterscripts
+[10:38:40] ---------------
+[10:38:40]   Loaded 0 filterscripts.
+
+[10:38:40] Start Server...
+[10:38:40] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:38:40] Disabled SinglePlayer entities
+[10:38:40] Initialize World time (Set to 10)
+[10:38:40] Initialize Weather (ID 2)
+[10:38:40] Initialize 5 Entrance/Exit Pickups
+[10:38:40] Initialize Timer
+[10:38:40] Initialize Clock
+[10:38:40] 
+-------------------------------------------------------------------
+[10:38:40]  OpenReallife | v21w16a | (C) 2021
+[10:38:40] --------------------------------------------------------------------
+
+[10:38:40] Number of vehicle models: 0
+[10:38:40] Number of Carshop Cars: 10
+[10:38:40] Number of Cars: 12
+[10:38:40] 1
+[10:38:40] 2
+[10:38:40] 3
+[10:38:40] 4
+[10:38:40] 5
+[10:38:40] 6
+[10:38:40] 7
+[10:38:40] 8
+[10:38:40] 9
+[10:38:40] 10
+[10:38:40] 14
+[10:38:40] 15
+[10:38:40] serverVehID: 1, ModelID: 596
+[10:38:40] serverVehID: 2, ModelID: 596
+[10:38:40] serverVehID: 3, ModelID: 596
+[10:38:40] serverVehID: 4, ModelID: 437
+[10:38:40] serverVehID: 5, ModelID: 490
+[10:38:40] serverVehID: 6, ModelID: 490
+[10:38:40] serverVehID: 7, ModelID: 596
+[10:38:40] serverVehID: 8, ModelID: 596
+[10:38:40] serverVehID: 9, ModelID: 596
+[10:38:40] serverVehID: 10, ModelID: 427
+[10:38:40] serverVehID: 11, ModelID: 601
+[10:38:40] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:38:59] filterscripts = ""  (string)
+[10:38:59] 
+[10:38:59] Server Plugins
+[10:38:59] --------------
+[10:38:59]  Loading plugin: mysql
+[10:38:59]  >> plugin.mysql: R41-4 successfully loaded.
+[10:38:59]   Loaded.
+[10:38:59]  Loading plugin: sscanf
+[10:38:59] 
+
+[10:38:59]  ===============================
+
+[10:38:59]       sscanf plugin loaded.     
+
+[10:38:59]          Version:  2.8.3        
+
+[10:38:59]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:38:59]  ===============================
+
+[10:38:59]   Loaded.
+[10:38:59]  Loading plugin: streamer
+[10:38:59] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:38:59]   Loaded.
+[10:38:59]  Loaded 3 plugins.
+
+[10:38:59] 
+[10:38:59] Filterscripts
+[10:38:59] ---------------
+[10:38:59]   Loaded 0 filterscripts.
+
+[10:38:59] Starting Server...
+[10:39:00] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:39:00] Disabled SinglePlayer entities
+[10:39:00] Initialize World time (Set to 10)
+[10:39:00] Initialize Weather (ID 2)
+[10:39:00] Initialize 5 Entrance/Exit Pickups
+[10:39:00] Initialize Timer
+[10:39:00] Initialize Clock
+[10:39:00] 
+-------------------------------------------------------------------
+[10:39:00]  OpenReallife | v21w16a | (C) 2021
+[10:39:00] -------------------------------------------------------------------
+
+[10:39:00] Number of vehicle models: 0
+[10:39:00] Number of Carshop Cars: 10
+[10:39:00] Number of Cars: 12
+[10:39:00] 1
+[10:39:00] 2
+[10:39:00] 3
+[10:39:00] 4
+[10:39:00] 5
+[10:39:00] 6
+[10:39:00] 7
+[10:39:00] 8
+[10:39:00] 9
+[10:39:00] 10
+[10:39:00] 14
+[10:39:00] 15
+[10:39:00] serverVehID: 1, ModelID: 596
+[10:39:00] serverVehID: 2, ModelID: 596
+[10:39:00] serverVehID: 3, ModelID: 596
+[10:39:00] serverVehID: 4, ModelID: 437
+[10:39:00] serverVehID: 5, ModelID: 490
+[10:39:00] serverVehID: 6, ModelID: 490
+[10:39:00] serverVehID: 7, ModelID: 596
+[10:39:00] serverVehID: 8, ModelID: 596
+[10:39:00] serverVehID: 9, ModelID: 596
+[10:39:00] serverVehID: 10, ModelID: 427
+[10:39:00] serverVehID: 11, ModelID: 601
+[10:39:00] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:41:23] filterscripts = ""  (string)
+[10:41:23] 
+[10:41:23] Server Plugins
+[10:41:23] --------------
+[10:41:23]  Loading plugin: mysql
+[10:41:23]  >> plugin.mysql: R41-4 successfully loaded.
+[10:41:23]   Loaded.
+[10:41:23]  Loading plugin: sscanf
+[10:41:23] 
+
+[10:41:23]  ===============================
+
+[10:41:23]       sscanf plugin loaded.     
+
+[10:41:23]          Version:  2.8.3        
+
+[10:41:23]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:41:23]  ===============================
+
+[10:41:23]   Loaded.
+[10:41:23]  Loading plugin: streamer
+[10:41:23] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:41:23]   Loaded.
+[10:41:23]  Loaded 3 plugins.
+
+[10:41:23] 
+[10:41:23] Filterscripts
+[10:41:23] ---------------
+[10:41:23]   Loaded 0 filterscripts.
+
+[10:41:23] Starting Server...
+[10:41:24] [INIT] Database
+[10:41:24] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:41:24] Disabled SinglePlayer entities
+[10:41:24] [INIT] World time (Set to 10)
+[10:41:24] [INIT] Weather (ID 2)
+[10:41:24] [INIT] 5 Entrance/Exit Pickups
+[10:41:24] [INIT] Timer
+[10:41:24] [INIT] Clock
+[10:41:24] 
+-------------------------------------------------------------------
+[10:41:24]  OpenReallife | v21w16a | (C) 2021
+[10:41:24] -------------------------------------------------------------------
+
+[10:41:24] Number of vehicle models: 0
+[10:41:24] Number of Carshop Cars: 10
+[10:41:24] Number of Cars: 12
+[10:41:24] 1
+[10:41:24] 2
+[10:41:24] 3
+[10:41:24] 4
+[10:41:24] 5
+[10:41:24] 6
+[10:41:24] 7
+[10:41:24] 8
+[10:41:24] 9
+[10:41:24] 10
+[10:41:24] 14
+[10:41:24] 15
+[10:41:24] serverVehID: 1, ModelID: 596
+[10:41:24] serverVehID: 2, ModelID: 596
+[10:41:24] serverVehID: 3, ModelID: 596
+[10:41:24] serverVehID: 4, ModelID: 437
+[10:41:24] serverVehID: 5, ModelID: 490
+[10:41:24] serverVehID: 6, ModelID: 490
+[10:41:24] serverVehID: 7, ModelID: 596
+[10:41:24] serverVehID: 8, ModelID: 596
+[10:41:24] serverVehID: 9, ModelID: 596
+[10:41:24] serverVehID: 10, ModelID: 427
+[10:41:24] serverVehID: 11, ModelID: 601
+[10:41:24] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:43:02] filterscripts = ""  (string)
+[10:43:02] 
+[10:43:02] Server Plugins
+[10:43:02] --------------
+[10:43:02]  Loading plugin: mysql
+[10:43:02]  >> plugin.mysql: R41-4 successfully loaded.
+[10:43:02]   Loaded.
+[10:43:02]  Loading plugin: sscanf
+[10:43:02] 
+
+[10:43:02]  ===============================
+
+[10:43:02]       sscanf plugin loaded.     
+
+[10:43:02]          Version:  2.8.3        
+
+[10:43:02]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:43:02]  ===============================
+
+[10:43:02]   Loaded.
+[10:43:02]  Loading plugin: streamer
+[10:43:02] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:43:02]   Loaded.
+[10:43:02]  Loaded 3 plugins.
+
+[10:43:02] 
+[10:43:02] Filterscripts
+[10:43:02] ---------------
+[10:43:02]   Loaded 0 filterscripts.
+
+[10:43:02] Starting Server...
+[10:43:02] [INIT] Database
+[10:43:02] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:43:02] [INIT] Disable SinglePlayer entities
+[10:43:02] [INIT] World time (Set to 10)
+[10:43:02] [INIT] Weather (ID 2)
+[10:43:02] [INIT] 5 Entrance/Exit Pickups
+[10:43:02] [INIT] Timer
+[10:43:02] [INIT] Clock
+[10:43:02] Server started!
+[10:43:02] 
+-------------------------------------------------------------------
+[10:43:02]  OpenReallife | v21w16a | (C) 2021
+[10:43:02] -------------------------------------------------------------------
+
+[10:43:02] Number of vehicle models: 0
+[10:43:02] Number of Carshop Cars: 10
+[10:43:02] Number of Cars: 12
+[10:43:02] 1
+[10:43:02] 2
+[10:43:02] 3
+[10:43:02] 4
+[10:43:02] 5
+[10:43:02] 6
+[10:43:02] 7
+[10:43:02] 8
+[10:43:02] 9
+[10:43:02] 10
+[10:43:02] 14
+[10:43:02] 15
+[10:43:02] serverVehID: 1, ModelID: 596
+[10:43:02] serverVehID: 2, ModelID: 596
+[10:43:02] serverVehID: 3, ModelID: 596
+[10:43:02] serverVehID: 4, ModelID: 437
+[10:43:02] serverVehID: 5, ModelID: 490
+[10:43:02] serverVehID: 6, ModelID: 490
+[10:43:02] serverVehID: 7, ModelID: 596
+[10:43:02] serverVehID: 8, ModelID: 596
+[10:43:02] serverVehID: 9, ModelID: 596
+[10:43:02] serverVehID: 10, ModelID: 427
+[10:43:02] serverVehID: 11, ModelID: 601
+[10:43:02] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:46:54] filterscripts = ""  (string)
+[10:46:54] 
+[10:46:54] Server Plugins
+[10:46:54] --------------
+[10:46:54]  Loading plugin: mysql
+[10:46:54]  >> plugin.mysql: R41-4 successfully loaded.
+[10:46:54]   Loaded.
+[10:46:54]  Loading plugin: sscanf
+[10:46:54] 
+
+[10:46:54]  ===============================
+
+[10:46:54]       sscanf plugin loaded.     
+
+[10:46:54]          Version:  2.8.3        
+
+[10:46:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:46:54]  ===============================
+
+[10:46:54]   Loaded.
+[10:46:54]  Loading plugin: streamer
+[10:46:54] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:46:54]   Loaded.
+[10:46:54]  Loaded 3 plugins.
+
+[10:46:54] 
+[10:46:54] Filterscripts
+[10:46:54] ---------------
+[10:46:54]   Loaded 0 filterscripts.
+
+[10:46:54] Starting Server...
+[10:46:55] [INIT] Database
+[10:46:55] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:46:55] [INIT] Disable SinglePlayer entities
+[10:46:55] [INIT] World time (Set to 10)
+[10:46:55] [INIT] Weather (ID 2)
+[10:46:55] [INIT] 5 Entrance/Exit Pickups
+[10:46:55] [INIT] Timer
+[10:46:55] [INIT] Clock
+[10:46:55] Server started!
+[10:46:55] 
+-------------------------------------------------------------------
+[10:46:55]  OpenReallife | v21w16a | (C) 2021
+[10:46:55] -------------------------------------------------------------------
+
+[10:46:55] Number of vehicle models: 0
+[10:46:55] Number of Carshop Cars: 10
+[10:46:55] Number of Cars: 12
+[10:46:55] 1
+[10:46:55] 2
+[10:46:55] 3
+[10:46:55] 4
+[10:46:55] 5
+[10:46:55] 6
+[10:46:55] 7
+[10:46:55] 8
+[10:46:55] 9
+[10:46:55] 10
+[10:46:55] 14
+[10:46:55] 15
+[10:46:55] serverVehID: 1, ModelID: 596
+[10:46:55] serverVehID: 2, ModelID: 596
+[10:46:55] serverVehID: 3, ModelID: 596
+[10:46:55] serverVehID: 4, ModelID: 437
+[10:46:55] serverVehID: 5, ModelID: 490
+[10:46:55] serverVehID: 6, ModelID: 490
+[10:46:55] serverVehID: 7, ModelID: 596
+[10:46:55] serverVehID: 8, ModelID: 596
+[10:46:55] serverVehID: 9, ModelID: 596
+[10:46:55] serverVehID: 10, ModelID: 427
+[10:46:55] serverVehID: 11, ModelID: 601
+[10:46:55] Cars loaded
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:47:50] filterscripts = ""  (string)
+[10:47:50] 
+[10:47:50] Server Plugins
+[10:47:50] --------------
+[10:47:50]  Loading plugin: mysql
+[10:47:50]  >> plugin.mysql: R41-4 successfully loaded.
+[10:47:50]   Loaded.
+[10:47:50]  Loading plugin: sscanf
+[10:47:50] 
+
+[10:47:50]  ===============================
+
+[10:47:50]       sscanf plugin loaded.     
+
+[10:47:50]          Version:  2.8.3        
+
+[10:47:50]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:47:50]  ===============================
+
+[10:47:50]   Loaded.
+[10:47:50]  Loading plugin: streamer
+[10:47:50] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:47:50]   Loaded.
+[10:47:50]  Loaded 3 plugins.
+
+[10:47:50] 
+[10:47:50] Filterscripts
+[10:47:50] ---------------
+[10:47:50]   Loaded 0 filterscripts.
+
+[10:47:50] Starting Server...
+[10:47:50] [INIT] Database
+[10:47:50] [DATABASE]: Connection failed to 'ni6595017_1_DB'...
+[10:47:50] 
+-------------------------------------------------------------------
+[10:47:50]  OpenReallife | v21w16a | (C) 2021
+[10:47:50] -------------------------------------------------------------------
+
+[10:47:50] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:48:46] filterscripts = ""  (string)
+[10:48:46] 
+[10:48:46] Server Plugins
+[10:48:46] --------------
+[10:48:46]  Loading plugin: mysql
+[10:48:46]  >> plugin.mysql: R41-4 successfully loaded.
+[10:48:46]   Loaded.
+[10:48:46]  Loading plugin: sscanf
+[10:48:46] 
+
+[10:48:46]  ===============================
+
+[10:48:46]       sscanf plugin loaded.     
+
+[10:48:46]          Version:  2.8.3        
+
+[10:48:46]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:48:46]  ===============================
+
+[10:48:46]   Loaded.
+[10:48:46]  Loading plugin: streamer
+[10:48:46] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:48:46]   Loaded.
+[10:48:46]  Loaded 3 plugins.
+
+[10:48:46] 
+[10:48:46] Filterscripts
+[10:48:46] ---------------
+[10:48:46]   Loaded 0 filterscripts.
+
+[10:48:46] Starting Server...
+[10:48:47] [INIT] Database
+[10:48:47] [DATABASE]: Connection failed to 'ni6595017_1_DB'...
+[10:48:47] 
+-------------------------------------------------------------------
+[10:48:47]  OpenReallife | v21w16a | (C) 2021
+[10:48:47] -------------------------------------------------------------------
+
+[10:48:47] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:49:12] filterscripts = ""  (string)
+[10:49:12] 
+[10:49:12] Server Plugins
+[10:49:12] --------------
+[10:49:12]  Loading plugin: mysql
+[10:49:12]  >> plugin.mysql: R41-4 successfully loaded.
+[10:49:12]   Loaded.
+[10:49:12]  Loading plugin: sscanf
+[10:49:12] 
+
+[10:49:12]  ===============================
+
+[10:49:12]       sscanf plugin loaded.     
+
+[10:49:12]          Version:  2.8.3        
+
+[10:49:12]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:49:12]  ===============================
+
+[10:49:12]   Loaded.
+[10:49:12]  Loading plugin: streamer
+[10:49:12] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:49:12]   Loaded.
+[10:49:12]  Loaded 3 plugins.
+
+[10:49:12] 
+[10:49:12] Filterscripts
+[10:49:12] ---------------
+[10:49:12]   Loaded 0 filterscripts.
+
+[10:49:12] Starting Server...
+[10:49:12] [INIT] Database
+[10:49:12] [DATABASE]: Connection established to 'ni6595017_1_DB'...
+[10:49:12] [INIT] Disable SinglePlayer entities
+[10:49:12] [INIT] World time (Set to 10)
+[10:49:12] [INIT] Weather (ID 2)
+[10:49:12] [INIT] 5 Entrance/Exit Pickups
+[10:49:12] [INIT] Timer
+[10:49:12] [INIT] Clock
+[10:49:12] Server started!
+[10:49:12] 
+-------------------------------------------------------------------
+[10:49:12]  OpenReallife | v21w16a | (C) 2021
+[10:49:12] -------------------------------------------------------------------
+
+[10:49:12] Number of vehicle models: 0
+[10:49:12] Number of Carshop Cars: 10
+[10:49:12] Number of Cars: 12
+[10:49:12] 1
+[10:49:12] 2
+[10:49:12] 3
+[10:49:12] 4
+[10:49:12] 5
+[10:49:12] 6
+[10:49:12] 7
+[10:49:12] 8
+[10:49:12] 9
+[10:49:12] 10
+[10:49:12] 14
+[10:49:12] 15
+[10:49:12] serverVehID: 1, ModelID: 596
+[10:49:12] serverVehID: 2, ModelID: 596
+[10:49:12] serverVehID: 3, ModelID: 596
+[10:49:12] serverVehID: 4, ModelID: 437
+[10:49:12] serverVehID: 5, ModelID: 490
+[10:49:12] serverVehID: 6, ModelID: 490
+[10:49:12] serverVehID: 7, ModelID: 596
+[10:49:12] serverVehID: 8, ModelID: 596
+[10:49:12] serverVehID: 9, ModelID: 596
+[10:49:12] serverVehID: 10, ModelID: 427
+[10:49:12] serverVehID: 11, ModelID: 601
+[10:49:13] Cars loaded
