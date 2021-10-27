@@ -50,7 +50,8 @@ Navigiere zu `/samp`
 - Starte `samp-server.exe`
 - Überprüfe, ob der Server korrekt gestartet
   </br>
-  <img height=200 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SampServer.png"/>
+  </br>
+  <img height=400 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SampServer.png"/>
 
 ## Server im Launcher hinzufügen
 
@@ -60,4 +61,5 @@ Navigiere zu `/samp`
 - Drücke Button `OK`
 - Der Development Server wird in der Serverliste im Tab `Favorites` angezeigt
   </br>
-  <img height=300 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SAMPLauncher.png"/>
+  </br>
+  <img height=400 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SAMPLauncher.png"/>
