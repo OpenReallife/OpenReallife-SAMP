@@ -30,7 +30,7 @@ Navigiere zu `/samp`
 - Öffne die Datei `mysql_connect.inc`
 - Konfiguriere den Code:
 
-```
+```c++
     /*
 	SQL Auth Data
     */
