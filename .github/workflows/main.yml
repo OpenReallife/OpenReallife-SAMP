@@ -1,10 +1,10 @@
 name: Deployment
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   schedule:
     - cron: "0 3 * * 0-6"
-    
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -23,5 +23,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
-          local-dir: ./gamemodes/
+          local-dir: ./samp/gamemodes/
           server-dir: ./samp/gamemodes/
