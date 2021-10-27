@@ -22,10 +22,12 @@
 
 OpenReallife SAMP is open to contributions, but I recommend creating an issue or replying in a comment to let me know what you are working on first that way we don't overwrite each other.
 
-Please read [CONTRIBUTING.md](https://github.com/benawad/dogehouse/blob/staging/CONTRIBUTING.md) for details on this project.
+Please read [CONTRIBUTING.md](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md) for details on this project.
 
-## OpenReallife SAMP
+## OpenReallife SA:MP
 
 Der Server Code gebaut für SA:MP
 
 ## How to run locally
+
+Klicke [hier](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md) um zu lernen, wie man damit lokal arbeitet
