@@ -8,9 +8,11 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
+
 ## Quickstart Local Pawno Development
 
 Nachfolgend wird erklärt, wie man einen SA:MP Development Server lokal aufsetzt und startet.
+
 
 ## Server konfigurieren
 
@@ -35,7 +37,7 @@ Navigiere zu `/samp`
 	SQL Auth Data
     */
 
-    #define SQL_HOSTNAME localhost
+    #define SQL_HOSTNAME "localhost"
     #define SQL_DATABASE [DATABASE NAME]
     #define SQL_USERNAME [DATABASE USERNAME]
     #define SQL_PASSWORD [DATABASE PASSWORT]
@@ -43,12 +45,14 @@ Navigiere zu `/samp`
 
 - Datei Speichern
 
+
 ## Server starten
 
 Navigiere zu `/samp`
 
 - Starte `samp-server.exe`
 - Überprüfe, ob der Server korrekt gestartet wurde
+
 
 ## Server im Launcher hinzufügen
 

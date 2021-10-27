@@ -26,8 +26,11 @@ Please read [CONTRIBUTING.md](https://github.com/OpenReallife/OpenReallife-SAMP/
 
 ## OpenReallife SA:MP
 
-Der Server Code gebaut für SA:MP
+Das Game-Server Repository für den OpenReallife SA:MP Server :rocket:
+
+
+
 
 ## How to run locally
 
-Klicke [hier](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md) um zu lernen, wie man damit lokal arbeitet
+Klicke [hier](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md#quickstart-local-pawno-development) um zu lernen, wie man damit lokal arbeitet
