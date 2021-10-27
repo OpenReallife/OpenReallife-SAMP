@@ -5,7 +5,7 @@
 // #    SA:MP Reallife Script as OpenSource project.
 // #    Let's create the best Reallife Script for SA:MP
 // #
-// #    First Version: v21w14a / 10.04.2021 TEST
+// #    First Version: v21w14a / 10.04.2021
 // #
 // ####################################################################################################################################
 
