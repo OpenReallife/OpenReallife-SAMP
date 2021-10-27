@@ -1,7 +1,8 @@
-name: Deployment
+name: Server Files Deployment
 on:
   push:
     branches: [main]
+    paths: "samp/gamemodes/**"
   schedule:
     - cron: "0 3 * * 0-6"
 
