@@ -16,15 +16,24 @@ Nachfolgend wird erklärt, wie man einen SA:MP Development Server lokal aufsetzt
 
 Navigiere zu `/samp`
 
-###### Datei server.cfg überprüfen
+### Datei server.cfg überprüfen
 
 - Öffne `server.cfg`
 - In der Zeile `gamemode0` sollte folgendes stehen: `gamemode0 openReallife`
 - In der Zeile `plugins` sollte folgendes stehen: `plugins mysql sscanf streamer`
 
-###### MySQL-Datenbank aufsetzen
+### MySQL-Datenbank aufsetzen
 
-- Klicke [!hier](https://github.com) um zu lernen, wie man lokal eine MySQL-Datenbank aufsetzt
+Klicke [hier](https://www.javatpoint.com/creating-mysql-database-with-xampp) um zu lernen, wie man lokal eine MySQL-Datenbank mit XAMPP aufsetzt
+
+- Navigiere zu `PhpMyAdmin`
+- Öffne die erstellte Datenbank
+- Öffne den Tab `Import`
+- Importiere die Datenbank-Datei `openReallife_DB.sql`
+  </br>
+  </br>
+  <img height=600 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SetupMySQL.png"/>
+
 - Navigiere zu `/samp/include`
 - Erstelle eine Datei mit den Namen `mysql_connect.inc`
 - Öffne die Datei `mysql_connect.inc`

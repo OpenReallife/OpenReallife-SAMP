@@ -1578,8 +1578,8 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	            getdate(y, m, d);
 	            format(date, sizeof(date), "%02d/%02d/%d", d, m, y);
 	            printf("%02d/%02d/%d", d, m, y);
-	            mysql_escape_string(inputtext, password, sizeof(password), dbhandle);
-				mysql_format(dbhandle, query, sizeof(query), "INSERT INTO user (username, password, skinID, registerDate) VALUES ('%s', MD5('%s'), '%i', '%s')", username, password, 1, date);
+	            mysql_escape_string(inputtext, password, sizeof(password), dbhandle);                                                                                                                                                                                                                                                                      
+				mysql_format(dbhandle, query, sizeof(query), "INSERT INTO user (isAdmin, username, password, skinID, level, cashMoney, bankMoney, factionID, factionRank, lastPosX, lastPosY, lastPosZ, iteriorID, lastLogin, registerDate, playerIP) VALUES ('%i', '%s', MD5('%s'), '%i', '%i', '%i', '%i', '%i', '%i', '%f', '%f', '%f', '%i', '%s', '%s', '%s')", 0, username, password, 1, 0, 5000, 0, 0, 0, 0.0, 0.0, 0.0, 0, date, date, "none");
 				mysql_tquery(dbhandle, query, "", "");
 				
 				print("On Player Request Class after Register");
