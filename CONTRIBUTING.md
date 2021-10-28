@@ -29,7 +29,7 @@ Klicke [hier](https://www.javatpoint.com/creating-mysql-database-with-xampp) um 
 - Navigiere zu `PhpMyAdmin`
 - Öffne die erstellte Datenbank
 - Öffne den Tab `Import`
-- Importiere die Datenbank-Datei `openReallife_DB.sql`
+- Importiere die Datenbank-Datei `openReallife_DB.sql` ([Datei](https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/openReallife_DB.sql))
   </br>
   </br>
   <img height=600 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SetupMySQL.png"/>
