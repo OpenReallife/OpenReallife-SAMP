@@ -86,7 +86,7 @@ enum playerInfo{
 	
 	//Server info
 	registerDate,
-	lastLogin[32],
+	lastLogin[64],
 	playerIP[16]
 }
 
@@ -461,13 +461,12 @@ public OnUserCheck(playerid)
 public OnPlayerConnect(playerid)
 {
 	SendClientMessage(playerid, BLUE_BRIGHT, "Wilkommen auf OpenReallife!");
+	PlayAudioStreamForPlayer(playerid, "http://inspiredprogrammer.com/api/Welcome.mp3");
 	
 	SetPlayerColor(playerid, WHITE);
 	GetPlayerName(playerid, globalUsername, sizeof(globalUsername));
 	
 	removeBuildings(playerid);
-	
-	PlayAudioStreamForPlayer(playerid, "http://inspiredprogrammer.com/api/Welcome.mp3");
 	
 	setTachometerDisplay(playerid);
 	
@@ -480,7 +479,7 @@ saveLastPosition(playerid)
     
     GetPlayerPos(playerid, pInfo[playerid][lastPos][0], pInfo[playerid][lastPos][1], pInfo[playerid][lastPos][2]);
     pInfo[playerid][interiorID] = GetPlayerInterior(playerid);
-    printf("Saved last Position: %f, %f, %f, %d", pInfo[playerid][lastPos][0], pInfo[playerid][lastPos][1], pInfo[playerid][lastPos][2], GetPlayerInterior(playerid));
+    printf("Saved Position: %f, %f, %f, %d", pInfo[playerid][lastPos][0], pInfo[playerid][lastPos][1], pInfo[playerid][lastPos][2], GetPlayerInterior(playerid));
     
     new query[128];
     mysql_format(dbhandle, query, sizeof(query), "UPDATE user SET lastPosX='%f', lastPosY='%f', lastPosZ='%f', interiorID='%d' WHERE id='%i'", pInfo[playerid][lastPos][0], pInfo[playerid][lastPos][1], pInfo[playerid][lastPos][2], pInfo[playerid][interiorID], pInfo[playerid][playerID]);
@@ -543,11 +542,13 @@ resetPlayer(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
+	printf("OnPlayerDisconnect");
 	PlayerTextDrawDestroy(playerid, gasLabel[playerid]);
 
 	GetPlayerPos(playerid, pInfo[playerid][lastPos][0], pInfo[playerid][lastPos][1], pInfo[playerid][lastPos][2]);
 	savePlayer(playerid);
 	saveLastPosition(playerid);
+	printf("saveLastPos");
 	resetPlayer(playerid);
 	return 1;
 }
@@ -643,7 +644,6 @@ public initVehicles(playerid)
 	    cache_get_value_name_float(i, "lastPosR", cInfo[i][vehE_lastPosR]);
 	    cache_get_value_name_int(i, "color1", cInfo[i][vehE_color1]);
 	    cache_get_value_name_int(i, "color2", cInfo[i][vehE_color2]);
-	    
  	}
  	
 	//new query[256];
@@ -801,7 +801,7 @@ ocmd:wanted(playerid, params[]) //Give Player Wanted
 	return 1;
 }
 
-ocmd:jail(playerid, params[]) //Give Player Wanted
+ocmd:jail(playerid, params[]) //Jail Player
 {
 	new toPlayerID, wanteds, string[128], reason[32], pName[MAX_PLAYER_NAME], ownName[MAX_PLAYER_NAME];
 	sscanf(params, "i", toPlayerID);
@@ -1272,6 +1272,7 @@ public SaveCurrentPosition(playerid)
     TextDrawHideForPlayer(playerid, Textdraw0);
     TextDrawHideForPlayer(playerid, Textdraw1);
 	saveLastPosition(playerid);
+	printf("Player Spawn Position saved to Database");
 }
 
 public OnPlayerStateChange(playerid, newstate, oldstate)
@@ -1279,7 +1280,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 	//Player Spawned -> OnFoot
 	if(oldstate == PLAYER_STATE_SPAWNED && newstate == PLAYER_STATE_ONFOOT)
 	{
-	    SetTimerEx("SaveCurrentPosition", 5000, false, "i", playerid);
+	    SetTimerEx("SaveCurrentPosition", 1000, false, "i", playerid);
 		return 1;
 	}
 
@@ -1517,9 +1518,12 @@ public OnPasswordResponse(playerid)
 	
 	if (row_count == 1)
 	{
-	    new y, m, d, date[32], pIP[16];
+	    new y, m, d, h, minute, s, date[32], time[32], datetime[64], pIP[16];
      	getdate(y, m, d);
+     	gettime(h, minute, s);
      	format(date, sizeof(date), "%02d/%02d/%d", d, m, y);
+      	format(time, sizeof(time), "%02d:%02d:%02d", h, minute, s);
+       	format(datetime, sizeof(datetime), "%s %s", date, time);
 	
 	    //Password correct
      	SendClientMessage(playerid, GREEN_BRIGHT, "Einloggen erfolgreich!");
@@ -1541,7 +1545,7 @@ public OnPasswordResponse(playerid)
 		cache_get_value_name_float(0, "lastPosZ", pInfo[playerid][lastPos][2]);
 		cache_get_value_name_int(0, "interiorID", pInfo[playerid][interiorID]);
 		
-		pInfo[playerid][lastLogin] = date;
+		pInfo[playerid][lastLogin] = datetime;
 
 		GetPlayerIp(playerid, pIP, sizeof(pIP));
 		pInfo[playerid][playerIP] = pIP;
@@ -1570,16 +1574,21 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	{
 	    if(response)
 	    {
-	        new username[MAX_PLAYER_NAME], password[35], query[268];
+	        new username[MAX_PLAYER_NAME], password[35], query[600];
 	        GetPlayerName(playerid, username, sizeof(username));
 	        if(strlen(inputtext)>= 3)
 	        {
-	            new y, m, d, date[265];
+	            new y, m, d, h, minute, s, date[265], time[265], datetime[265], pIP[16];
 	            getdate(y, m, d);
+	            gettime(h, minute, s);
+	            GetPlayerIp(playerid, pIP, sizeof(pIP));
 	            format(date, sizeof(date), "%02d/%02d/%d", d, m, y);
+	            format(time, sizeof(time), "%02d:%02d:%02d", h, minute, s);
+	            format(datetime, sizeof(datetime), "%s %s", date, time);
 	            printf("%02d/%02d/%d", d, m, y);
+	            printf("%02d:%02d:%02d", h, minute, s);
 	            mysql_escape_string(inputtext, password, sizeof(password), dbhandle);                                                                                                                                                                                                                                                                      
-				mysql_format(dbhandle, query, sizeof(query), "INSERT INTO user (isAdmin, username, password, skinID, level, cashMoney, bankMoney, factionID, factionRank, lastPosX, lastPosY, lastPosZ, iteriorID, lastLogin, registerDate, playerIP) VALUES ('%i', '%s', MD5('%s'), '%i', '%i', '%i', '%i', '%i', '%i', '%f', '%f', '%f', '%i', '%s', '%s', '%s')", 0, username, password, 1, 0, 5000, 0, 0, 0, 0.0, 0.0, 0.0, 0, date, date, "none");
+				mysql_format(dbhandle, query, sizeof(query), "INSERT INTO user (isAdmin, username, password, skinID, level, cashMoney, bankMoney, factionID, factionRank, lastPosX, lastPosY, lastPosZ, interiorID, lastLogin, registerDate, playerIP) VALUES ('%i', '%s', MD5('%s'), '%i', '%i', '%i', '%i', '%i', '%i', '%f', '%f', '%f', '%i', '%s', '%s', '%s')", 0, username, password, 1, 0, 5000, 0, 0, 0, 0.0, 0.0, 0.0, 0, datetime, datetime, pIP);
 				mysql_tquery(dbhandle, query, "", "");
 				
 				print("On Player Request Class after Register");
@@ -1589,7 +1598,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	        else
 	        {
 	            SendClientMessage(playerid, RED_BRIGHT, "Das Passwort ist zu kurz! Bitte mindestens 4 Zeichen verwenden.");
-        	    format(globalString, sizeof(globalString), "{33AA33}Willkommen auf OpenReallife %s!\n\n {FEFEFE}Bitte wï¿½hle ein Passwort um dich zu registrieren.", globalUsername);
+        	    format(globalString, sizeof(globalString), "{33AA33}Willkommen auf OpenReallife %s!\n\n {FEFEFE}Bitte wähle ein Passwort um dich zu registrieren.", globalUsername);
 	    		ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_INPUT, "Auf OpenReallife registrieren", globalString, "{0069FF}Registrieren", "Abbrechen");
 			}
 		}

@@ -45052,3 +45052,1196 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [21:41:04] OnUserCheck called
 [21:41:04] Couldn't retrieve row count. User need to register.
 [21:41:07] [part] Chrissl has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:55:36] filterscripts = ""  (string)
+[10:55:36] 
+[10:55:36] Server Plugins
+[10:55:36] --------------
+[10:55:36]  Loading plugin: mysql
+[10:55:37]  >> plugin.mysql: R41-4 successfully loaded.
+[10:55:37]   Loaded.
+[10:55:37]  Loading plugin: sscanf
+[10:55:37] 
+
+[10:55:37]  ===============================
+
+[10:55:37]       sscanf plugin loaded.     
+
+[10:55:37]          Version:  2.8.3        
+
+[10:55:37]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:55:37]  ===============================
+
+[10:55:37]   Loaded.
+[10:55:37]  Loading plugin: streamer
+[10:55:38] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:55:38]   Loaded.
+[10:55:38]  Loaded 3 plugins.
+
+[10:55:38] 
+[10:55:38] Filterscripts
+[10:55:38] ---------------
+[10:55:38]   Loaded 0 filterscripts.
+
+[10:55:39] Starting Server...
+[10:55:39] [INIT] Database
+[10:55:39] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[10:55:39] [INIT] Disable SinglePlayer entities
+[10:55:39] [INIT] World time (Set to 10)
+[10:55:39] [INIT] Weather (ID 2)
+[10:55:39] [INIT] 5 Entrance/Exit Pickups
+[10:55:39] [INIT] Timer
+[10:55:39] [INIT] Clock
+[10:55:39] Server started!
+[10:55:39] 
+-------------------------------------------------------------------
+[10:55:39]  OpenReallife | v21w43a | (C) 2021
+[10:55:39] -------------------------------------------------------------------
+
+[10:55:39] Number of vehicle models: 0
+[10:55:39] Number of Carshop Cars: 10
+[10:55:39] Number of Cars: 12
+[10:55:39] 1
+[10:55:39] 2
+[10:55:39] 3
+[10:55:39] 4
+[10:55:39] 5
+[10:55:39] 6
+[10:55:39] 7
+[10:55:39] 8
+[10:55:39] 9
+[10:55:39] 10
+[10:55:39] 14
+[10:55:39] 15
+[10:55:39] serverVehID: 1, ModelID: 596
+[10:55:39] serverVehID: 2, ModelID: 596
+[10:55:39] serverVehID: 3, ModelID: 596
+[10:55:39] serverVehID: 4, ModelID: 437
+[10:55:39] serverVehID: 5, ModelID: 490
+[10:55:39] serverVehID: 6, ModelID: 490
+[10:55:39] serverVehID: 7, ModelID: 596
+[10:55:39] serverVehID: 8, ModelID: 596
+[10:55:39] serverVehID: 9, ModelID: 596
+[10:55:39] serverVehID: 10, ModelID: 427
+[10:55:39] serverVehID: 11, ModelID: 601
+[10:55:39] Cars loaded
+[10:56:06] [connection] 127.0.0.1:61218 requests connection cookie.
+[10:56:07] [connection] incoming connection: 127.0.0.1:61218 id: 0
+[10:56:07] [join] chrisslfissl has joined the server (0:127.0.0.1)
+[10:56:08] Camera triggered
+[10:56:08] OnUserCheck called
+[10:56:08] Retrieve row count. User need login.
+[10:56:17] Saved last Position: 1535.660034, -1676.430053, 13.382812, 0
+[10:56:17] [part] chrisslfissl has left the server (0:1)
+[10:56:48] [connection] 127.0.0.1:55466 requests connection cookie.
+[10:56:49] [connection] incoming connection: 127.0.0.1:55466 id: 0
+[10:56:50] [join] suppengumbo has joined the server (0:127.0.0.1)
+[10:56:51] Camera triggered
+[10:56:51] OnUserCheck called
+[10:56:51] Couldn't retrieve row count. User need to register.
+[10:57:01] 30/10/2021
+[10:57:01] On Player Request Class after Register
+[10:57:01] Camera triggered
+[10:57:01] OnUserCheck called
+[10:57:01] Couldn't retrieve row count. User need to register.
+[10:57:05] 30/10/2021
+[10:57:05] On Player Request Class after Register
+[10:57:05] Camera triggered
+[10:57:05] OnUserCheck called
+[10:57:05] Couldn't retrieve row count. User need to register.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:58:08] filterscripts = ""  (string)
+[10:58:08] 
+[10:58:08] Server Plugins
+[10:58:08] --------------
+[10:58:08]  Loading plugin: mysql
+[10:58:08]  >> plugin.mysql: R41-4 successfully loaded.
+[10:58:08]   Loaded.
+[10:58:08]  Loading plugin: sscanf
+[10:58:08] 
+
+[10:58:08]  ===============================
+
+[10:58:08]       sscanf plugin loaded.     
+
+[10:58:08]          Version:  2.8.3        
+
+[10:58:08]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:58:08]  ===============================
+
+[10:58:08]   Loaded.
+[10:58:08]  Loading plugin: streamer
+[10:58:08] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:58:08]   Loaded.
+[10:58:08]  Loaded 3 plugins.
+
+[10:58:08] 
+[10:58:08] Filterscripts
+[10:58:08] ---------------
+[10:58:08]   Loaded 0 filterscripts.
+
+[10:58:08] Starting Server...
+[10:58:08] [INIT] Database
+[10:58:08] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[10:58:08] [INIT] Disable SinglePlayer entities
+[10:58:08] [INIT] World time (Set to 10)
+[10:58:08] [INIT] Weather (ID 2)
+[10:58:08] [INIT] 5 Entrance/Exit Pickups
+[10:58:08] [INIT] Timer
+[10:58:08] [INIT] Clock
+[10:58:08] Server started!
+[10:58:08] 
+-------------------------------------------------------------------
+[10:58:08]  OpenReallife | v21w43a | (C) 2021
+[10:58:08] -------------------------------------------------------------------
+
+[10:58:08] Number of vehicle models: 0
+[10:58:08] Number of Carshop Cars: 10
+[10:58:08] Number of Cars: 12
+[10:58:08] 1
+[10:58:08] 2
+[10:58:08] 3
+[10:58:08] 4
+[10:58:08] 5
+[10:58:08] 6
+[10:58:08] 7
+[10:58:08] 8
+[10:58:08] 9
+[10:58:08] 10
+[10:58:08] 14
+[10:58:08] 15
+[10:58:08] serverVehID: 1, ModelID: 596
+[10:58:08] serverVehID: 2, ModelID: 596
+[10:58:08] serverVehID: 3, ModelID: 596
+[10:58:08] serverVehID: 4, ModelID: 437
+[10:58:08] serverVehID: 5, ModelID: 490
+[10:58:08] serverVehID: 6, ModelID: 490
+[10:58:08] serverVehID: 7, ModelID: 596
+[10:58:08] serverVehID: 8, ModelID: 596
+[10:58:08] serverVehID: 9, ModelID: 596
+[10:58:08] serverVehID: 10, ModelID: 427
+[10:58:08] serverVehID: 11, ModelID: 601
+[10:58:08] Cars loaded
+[10:58:39] [connection] 127.0.0.1:52433 requests connection cookie.
+[10:58:40] [connection] incoming connection: 127.0.0.1:52433 id: 0
+[10:58:40] [join] suppengumbo has joined the server (0:127.0.0.1)
+[10:58:41] Camera triggered
+[10:58:41] OnUserCheck called
+[10:58:41] Couldn't retrieve row count. User need to register.
+[10:58:45] 30/10/2021
+[10:58:45] On Player Request Class after Register
+[10:58:45] Camera triggered
+[10:58:45] OnUserCheck called
+[10:58:45] Retrieve row count. User need login.
+[10:58:55] Saved last Position: 1638.583618, -2241.738037, 13.498106, 0
+[10:59:42] Saved last Position: 1607.920776, -2242.411132, 13.537843, 0
+[10:59:42] [part] suppengumbo has left the server (0:1)
+[12:03:06] World time set to 12
+[12:03:06] Weather set to ID 15
+[13:07:02] World time set to 13
+[13:07:02] Weather set to ID 4
+[14:12:03] World time set to 14
+[14:12:03] Weather set to ID 19
+[14:58:56] [connection] 127.0.0.1:54612 requests connection cookie.
+[14:58:57] [connection] incoming connection: 127.0.0.1:54612 id: 0
+[14:58:57] [join] suppengumbo has joined the server (0:127.0.0.1)
+[14:58:58] Camera triggered
+[14:58:58] OnUserCheck called
+[14:58:58] Retrieve row count. User need login.
+[14:59:08] Saved last Position: 1607.920043, -2242.409912, 13.537847, 0
+[14:59:41] Saved last Position: 1599.930664, -2243.871093, 13.542083, 0
+[14:59:41] [part] suppengumbo has left the server (0:1)
+[15:16:38] World time set to 15
+[15:16:38] Weather set to ID 4
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:07:49] filterscripts = ""  (string)
+[16:07:49] 
+[16:07:49] Server Plugins
+[16:07:49] --------------
+[16:07:49]  Loading plugin: mysql
+[16:07:49]  >> plugin.mysql: R41-4 successfully loaded.
+[16:07:49]   Loaded.
+[16:07:49]  Loading plugin: sscanf
+[16:07:49] 
+
+[16:07:49]  ===============================
+
+[16:07:49]       sscanf plugin loaded.     
+
+[16:07:49]          Version:  2.8.3        
+
+[16:07:49]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:07:49]  ===============================
+
+[16:07:49]   Loaded.
+[16:07:49]  Loading plugin: streamer
+[16:07:49] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[16:07:49]   Loaded.
+[16:07:49]  Loaded 3 plugins.
+
+[16:07:49] 
+[16:07:49] Filterscripts
+[16:07:49] ---------------
+[16:07:49]   Loaded 0 filterscripts.
+
+[16:07:49] Starting Server...
+[16:07:50] [INIT] Database
+[16:07:50] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[16:07:50] [INIT] Disable SinglePlayer entities
+[16:07:50] [INIT] World time (Set to 16)
+[16:07:50] [INIT] Weather (ID 2)
+[16:07:50] [INIT] 5 Entrance/Exit Pickups
+[16:07:50] [INIT] Timer
+[16:07:50] [INIT] Clock
+[16:07:50] Server started!
+[16:07:50] 
+-------------------------------------------------------------------
+[16:07:50]  OpenReallife | v21w43a | (C) 2021
+[16:07:50] -------------------------------------------------------------------
+
+[16:07:50] Number of vehicle models: 0
+[16:07:50] Number of Carshop Cars: 10
+[16:07:50] Number of Cars: 12
+[16:07:50] 1
+[16:07:50] 2
+[16:07:50] 3
+[16:07:50] 4
+[16:07:50] 5
+[16:07:50] 6
+[16:07:50] 7
+[16:07:50] 8
+[16:07:50] 9
+[16:07:50] 10
+[16:07:50] 14
+[16:07:50] 15
+[16:07:50] serverVehID: 1, ModelID: 596
+[16:07:50] serverVehID: 2, ModelID: 596
+[16:07:50] serverVehID: 3, ModelID: 596
+[16:07:50] serverVehID: 4, ModelID: 437
+[16:07:50] serverVehID: 5, ModelID: 490
+[16:07:50] serverVehID: 6, ModelID: 490
+[16:07:50] serverVehID: 7, ModelID: 596
+[16:07:50] serverVehID: 8, ModelID: 596
+[16:07:50] serverVehID: 9, ModelID: 596
+[16:07:50] serverVehID: 10, ModelID: 427
+[16:07:50] serverVehID: 11, ModelID: 601
+[16:07:50] Cars loaded
+[16:08:13] [connection] 127.0.0.1:61037 requests connection cookie.
+[16:08:14] [connection] incoming connection: 127.0.0.1:61037 id: 0
+[16:08:15] [join] suppengumbo has joined the server (0:127.0.0.1)
+[16:08:16] Camera triggered
+[16:08:16] OnUserCheck called
+[16:08:16] Retrieve row count. User need login.
+[16:08:23] [part] suppengumbo has left the server (0:2)
+[16:09:12] [connection] 127.0.0.1:49924 requests connection cookie.
+[16:09:13] [connection] incoming connection: 127.0.0.1:49924 id: 0
+[16:09:13] [join] doenerpeter has joined the server (0:127.0.0.1)
+[16:09:14] Camera triggered
+[16:09:14] OnUserCheck called
+[16:09:14] Couldn't retrieve row count. User need to register.
+[16:09:20] 30/10/2021
+[16:09:20] On Player Request Class after Register
+[16:09:20] Camera triggered
+[16:09:20] OnUserCheck called
+[16:09:20] Retrieve row count. User need login.
+[16:09:28] Saved last Position: 1638.583618, -2241.738037, 13.498106, 0
+[16:43:17] Saved last Position: 1638.583618, -2241.738037, 13.498106, 0
+[16:43:17] [part] doenerpeter has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:08:41] filterscripts = ""  (string)
+[17:08:41] 
+[17:08:41] Server Plugins
+[17:08:41] --------------
+[17:08:41]  Loading plugin: mysql
+[17:08:42]  >> plugin.mysql: R41-4 successfully loaded.
+[17:08:42]   Loaded.
+[17:08:42]  Loading plugin: sscanf
+[17:08:42] 
+
+[17:08:42]  ===============================
+
+[17:08:42]       sscanf plugin loaded.     
+
+[17:08:42]          Version:  2.8.3        
+
+[17:08:42]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:08:42]  ===============================
+
+[17:08:42]   Loaded.
+[17:08:42]  Loading plugin: streamer
+[17:08:42] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:08:42]   Loaded.
+[17:08:42]  Loaded 3 plugins.
+
+[17:08:42] 
+[17:08:42] Filterscripts
+[17:08:42] ---------------
+[17:08:42]   Loaded 0 filterscripts.
+
+[17:08:42] Starting Server...
+[17:08:43] [INIT] Database
+[17:08:43] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[17:08:43] [INIT] Disable SinglePlayer entities
+[17:08:43] [INIT] World time (Set to 17)
+[17:08:43] [INIT] Weather (ID 2)
+[17:08:43] [INIT] 5 Entrance/Exit Pickups
+[17:08:43] [INIT] Timer
+[17:08:43] [INIT] Clock
+[17:08:43] Server started!
+[17:08:43] 
+-------------------------------------------------------------------
+[17:08:43]  OpenReallife | v21w43a | (C) 2021
+[17:08:43] -------------------------------------------------------------------
+
+[17:08:43] Number of vehicle models: 0
+[17:08:43] Number of Carshop Cars: 10
+[17:08:43] Number of Cars: 12
+[17:08:43] 1
+[17:08:43] 2
+[17:08:43] 3
+[17:08:43] 4
+[17:08:43] 5
+[17:08:43] 6
+[17:08:43] 7
+[17:08:43] 8
+[17:08:43] 9
+[17:08:43] 10
+[17:08:43] 14
+[17:08:43] 15
+[17:08:43] serverVehID: 1, ModelID: 596
+[17:08:43] serverVehID: 2, ModelID: 596
+[17:08:43] serverVehID: 3, ModelID: 596
+[17:08:43] serverVehID: 4, ModelID: 437
+[17:08:43] serverVehID: 5, ModelID: 490
+[17:08:43] serverVehID: 6, ModelID: 490
+[17:08:43] serverVehID: 7, ModelID: 596
+[17:08:43] serverVehID: 8, ModelID: 596
+[17:08:43] serverVehID: 9, ModelID: 596
+[17:08:43] serverVehID: 10, ModelID: 427
+[17:08:43] serverVehID: 11, ModelID: 601
+[17:08:43] Cars loaded
+[17:09:19] [connection] 127.0.0.1:55455 requests connection cookie.
+[17:09:20] [connection] incoming connection: 127.0.0.1:55455 id: 0
+[17:09:21] [join] brombos has joined the server (0:127.0.0.1)
+[17:09:22] Camera triggered
+[17:09:22] OnUserCheck called
+[17:09:22] Couldn't retrieve row count. User need to register.
+[17:09:27] 30/10/2021
+[17:09:27] 17:09:27
+[17:09:27] On Player Request Class after Register
+[17:09:27] Camera triggered
+[17:09:27] OnUserCheck called
+[17:09:27] Retrieve row count. User need login.
+[17:09:58] Saved last Position: 1638.583618, -2241.738037, 13.498106, 0
+[17:11:07] Saved last Position: 1638.583618, -2241.738037, 13.498106, 0
+[17:11:07] [part] brombos has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:11:19] filterscripts = ""  (string)
+[17:11:19] 
+[17:11:19] Server Plugins
+[17:11:19] --------------
+[17:11:19]  Loading plugin: mysql
+[17:11:19]  >> plugin.mysql: R41-4 successfully loaded.
+[17:11:19]   Loaded.
+[17:11:19]  Loading plugin: sscanf
+[17:11:19] 
+
+[17:11:19]  ===============================
+
+[17:11:19]       sscanf plugin loaded.     
+
+[17:11:19]          Version:  2.8.3        
+
+[17:11:19]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:11:19]  ===============================
+
+[17:11:19]   Loaded.
+[17:11:19]  Loading plugin: streamer
+[17:11:19] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:11:19]   Loaded.
+[17:11:19]  Loaded 3 plugins.
+
+[17:11:19] 
+[17:11:19] Filterscripts
+[17:11:19] ---------------
+[17:11:19]   Loaded 0 filterscripts.
+
+[17:11:19] Starting Server...
+[17:11:19] [INIT] Database
+[17:11:19] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[17:11:19] [INIT] Disable SinglePlayer entities
+[17:11:19] [INIT] World time (Set to 17)
+[17:11:19] [INIT] Weather (ID 2)
+[17:11:19] [INIT] 5 Entrance/Exit Pickups
+[17:11:19] [INIT] Timer
+[17:11:19] [INIT] Clock
+[17:11:19] Server started!
+[17:11:19] 
+-------------------------------------------------------------------
+[17:11:19]  OpenReallife | v21w43a | (C) 2021
+[17:11:19] -------------------------------------------------------------------
+
+[17:11:19] Number of vehicle models: 0
+[17:11:19] Number of Carshop Cars: 10
+[17:11:19] Number of Cars: 12
+[17:11:19] 1
+[17:11:19] 2
+[17:11:19] 3
+[17:11:19] 4
+[17:11:19] 5
+[17:11:19] 6
+[17:11:19] 7
+[17:11:19] 8
+[17:11:19] 9
+[17:11:19] 10
+[17:11:19] 14
+[17:11:19] 15
+[17:11:19] serverVehID: 1, ModelID: 596
+[17:11:19] serverVehID: 2, ModelID: 596
+[17:11:19] serverVehID: 3, ModelID: 596
+[17:11:19] serverVehID: 4, ModelID: 437
+[17:11:19] serverVehID: 5, ModelID: 490
+[17:11:19] serverVehID: 6, ModelID: 490
+[17:11:19] serverVehID: 7, ModelID: 596
+[17:11:19] serverVehID: 8, ModelID: 596
+[17:11:19] serverVehID: 9, ModelID: 596
+[17:11:19] serverVehID: 10, ModelID: 427
+[17:11:19] serverVehID: 11, ModelID: 601
+[17:11:19] Cars loaded
+[17:11:54] [connection] 127.0.0.1:56252 requests connection cookie.
+[17:11:55] [connection] incoming connection: 127.0.0.1:56252 id: 0
+[17:11:55] [join] schanzenlord has joined the server (0:127.0.0.1)
+[17:11:56] Camera triggered
+[17:11:56] OnUserCheck called
+[17:11:56] Couldn't retrieve row count. User need to register.
+[17:12:00] 30/10/2021
+[17:12:00] 17:12:00
+[17:12:00] On Player Request Class after Register
+[17:12:00] Camera triggered
+[17:12:00] OnUserCheck called
+[17:12:00] Retrieve row count. User need login.
+[17:12:42] Saved last Position: 1638.583618, -2241.738037, 13.498106, 0
+[17:12:46] Saved last Position: 1638.583618, -2241.738037, 13.498106, 0
+[17:12:46] [part] schanzenlord has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:19:27] filterscripts = ""  (string)
+[17:19:27] 
+[17:19:27] Server Plugins
+[17:19:27] --------------
+[17:19:27]  Loading plugin: mysql
+[17:19:27]  >> plugin.mysql: R41-4 successfully loaded.
+[17:19:27]   Loaded.
+[17:19:27]  Loading plugin: sscanf
+[17:19:27] 
+
+[17:19:27]  ===============================
+
+[17:19:27]       sscanf plugin loaded.     
+
+[17:19:27]          Version:  2.8.3        
+
+[17:19:27]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:19:27]  ===============================
+
+[17:19:27]   Loaded.
+[17:19:27]  Loading plugin: streamer
+[17:19:27] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:19:27]   Loaded.
+[17:19:27]  Loaded 3 plugins.
+
+[17:19:27] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:19:27] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:19:30] filterscripts = ""  (string)
+[17:19:30] 
+[17:19:30] Server Plugins
+[17:19:30] --------------
+[17:19:30]  Loading plugin: mysql
+[17:19:30]  >> plugin.mysql: R41-4 successfully loaded.
+[17:19:30]   Loaded.
+[17:19:30]  Loading plugin: sscanf
+[17:19:30] 
+
+[17:19:30]  ===============================
+
+[17:19:30]       sscanf plugin loaded.     
+
+[17:19:30]          Version:  2.8.3        
+
+[17:19:30]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:19:30]  ===============================
+
+[17:19:30]   Loaded.
+[17:19:30]  Loading plugin: streamer
+[17:19:30] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:19:30]   Loaded.
+[17:19:30]  Loaded 3 plugins.
+
+[17:19:30] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:19:30] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:19:31] filterscripts = ""  (string)
+[17:19:31] 
+[17:19:31] Server Plugins
+[17:19:31] --------------
+[17:19:31]  Loading plugin: mysql
+[17:19:31]  >> plugin.mysql: R41-4 successfully loaded.
+[17:19:31]   Loaded.
+[17:19:31]  Loading plugin: sscanf
+[17:19:31] 
+
+[17:19:31]  ===============================
+
+[17:19:31]       sscanf plugin loaded.     
+
+[17:19:31]          Version:  2.8.3        
+
+[17:19:31]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:19:31]  ===============================
+
+[17:19:31]   Loaded.
+[17:19:31]  Loading plugin: streamer
+[17:19:31] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:19:31]   Loaded.
+[17:19:31]  Loaded 3 plugins.
+
+[17:19:31] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:19:31] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:19:32] filterscripts = ""  (string)
+[17:19:32] 
+[17:19:32] Server Plugins
+[17:19:32] --------------
+[17:19:32]  Loading plugin: mysql
+[17:19:32]  >> plugin.mysql: R41-4 successfully loaded.
+[17:19:32]   Loaded.
+[17:19:32]  Loading plugin: sscanf
+[17:19:32] 
+
+[17:19:32]  ===============================
+
+[17:19:32]       sscanf plugin loaded.     
+
+[17:19:32]          Version:  2.8.3        
+
+[17:19:32]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:19:32]  ===============================
+
+[17:19:32]   Loaded.
+[17:19:32]  Loading plugin: streamer
+[17:19:32] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:19:32]   Loaded.
+[17:19:32]  Loaded 3 plugins.
+
+[17:19:32] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:19:32] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:20:12] filterscripts = ""  (string)
+[17:20:12] 
+[17:20:12] Server Plugins
+[17:20:12] --------------
+[17:20:12]  Loading plugin: mysql
+[17:20:12]  >> plugin.mysql: R41-4 successfully loaded.
+[17:20:12]   Loaded.
+[17:20:12]  Loading plugin: sscanf
+[17:20:12] 
+
+[17:20:12]  ===============================
+
+[17:20:12]       sscanf plugin loaded.     
+
+[17:20:12]          Version:  2.8.3        
+
+[17:20:12]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:20:12]  ===============================
+
+[17:20:12]   Loaded.
+[17:20:12]  Loading plugin: streamer
+[17:20:12] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:20:12]   Loaded.
+[17:20:12]  Loaded 3 plugins.
+
+[17:20:12] 
+[17:20:12] Filterscripts
+[17:20:12] ---------------
+[17:20:12]   Loaded 0 filterscripts.
+
+[17:20:12] Starting Server...
+[17:20:12] [INIT] Database
+[17:20:12] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[17:20:12] [INIT] Disable SinglePlayer entities
+[17:20:12] [INIT] World time (Set to 17)
+[17:20:12] [INIT] Weather (ID 2)
+[17:20:12] [INIT] 5 Entrance/Exit Pickups
+[17:20:12] [INIT] Timer
+[17:20:12] [INIT] Clock
+[17:20:12] Server started!
+[17:20:12] 
+-------------------------------------------------------------------
+[17:20:12]  OpenReallife | v21w43a | (C) 2021
+[17:20:12] -------------------------------------------------------------------
+
+[17:20:12] Number of vehicle models: 0
+[17:20:12] Number of Carshop Cars: 10
+[17:20:12] Number of Cars: 12
+[17:20:12] 1
+[17:20:12] 2
+[17:20:12] 3
+[17:20:12] 4
+[17:20:12] 5
+[17:20:12] 6
+[17:20:12] 7
+[17:20:12] 8
+[17:20:12] 9
+[17:20:12] 10
+[17:20:12] 14
+[17:20:12] 15
+[17:20:12] serverVehID: 1, ModelID: 596
+[17:20:12] serverVehID: 2, ModelID: 596
+[17:20:12] serverVehID: 3, ModelID: 596
+[17:20:12] serverVehID: 4, ModelID: 437
+[17:20:12] serverVehID: 5, ModelID: 490
+[17:20:12] serverVehID: 6, ModelID: 490
+[17:20:12] serverVehID: 7, ModelID: 596
+[17:20:12] serverVehID: 8, ModelID: 596
+[17:20:12] serverVehID: 9, ModelID: 596
+[17:20:12] serverVehID: 10, ModelID: 427
+[17:20:12] serverVehID: 11, ModelID: 601
+[17:20:12] Cars loaded
+[17:20:34] [connection] 127.0.0.1:57502 requests connection cookie.
+[17:20:35] [connection] incoming connection: 127.0.0.1:57502 id: 0
+[17:20:35] [join] schanzenlord has joined the server (0:127.0.0.1)
+[17:20:36] Camera triggered
+[17:20:36] OnUserCheck called
+[17:20:36] Retrieve row count. User need login.
+[17:20:47] Saved last Position: 1638.579956, -2241.739990, 13.498107, 0
+[17:21:13] Saved last Position: 1638.579956, -2241.739990, 13.498107, 0
+[17:21:13] [part] schanzenlord has left the server (0:1)
+[18:24:47] World time set to 18
+[18:24:47] Weather set to ID 14
+[19:28:58] World time set to 19
+[19:28:58] Weather set to ID 2
+[20:32:42] World time set to 20
+[20:32:42] Weather set to ID 13
+[20:40:28] [connection] 127.0.0.1:57039 requests connection cookie.
+[20:40:29] [connection] incoming connection: 127.0.0.1:57039 id: 0
+[20:40:30] [join] schanzenlord has joined the server (0:127.0.0.1)
+[20:40:31] Camera triggered
+[20:40:32] OnUserCheck called
+[20:40:32] Retrieve row count. User need login.
+[20:40:42] Saved last Position: 1582.760009, -2207.132080, 13.554655, 0
+[20:40:48] Saved last Position: 1582.760009, -2202.239013, 13.546875, 0
+[20:40:48] [part] schanzenlord has left the server (0:1)
+[20:50:19] [connection] 127.0.0.1:53257 requests connection cookie.
+[20:50:20] [connection] incoming connection: 127.0.0.1:53257 id: 0
+[20:50:21] [join] schanzenlord has joined the server (0:127.0.0.1)
+[20:50:22] Camera triggered
+[20:50:22] OnUserCheck called
+[20:50:22] Retrieve row count. User need login.
+[20:50:36] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[20:56:48] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[20:56:48] [part] schanzenlord has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:59:02] filterscripts = ""  (string)
+[20:59:02] 
+[20:59:02] Server Plugins
+[20:59:02] --------------
+[20:59:02]  Loading plugin: mysql
+[20:59:02]  >> plugin.mysql: R41-4 successfully loaded.
+[20:59:02]   Loaded.
+[20:59:02]  Loading plugin: sscanf
+[20:59:02] 
+
+[20:59:02]  ===============================
+
+[20:59:02]       sscanf plugin loaded.     
+
+[20:59:02]          Version:  2.8.3        
+
+[20:59:02]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:59:02]  ===============================
+
+[20:59:02]   Loaded.
+[20:59:02]  Loading plugin: streamer
+[20:59:02] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[20:59:02]   Loaded.
+[20:59:02]  Loaded 3 plugins.
+
+[20:59:02] I couldn't load any gamemode scripts. Please verify your server.cfg
+[20:59:02] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:59:04] filterscripts = ""  (string)
+[20:59:04] 
+[20:59:04] Server Plugins
+[20:59:04] --------------
+[20:59:04]  Loading plugin: mysql
+[20:59:04]  >> plugin.mysql: R41-4 successfully loaded.
+[20:59:04]   Loaded.
+[20:59:04]  Loading plugin: sscanf
+[20:59:04] 
+
+[20:59:04]  ===============================
+
+[20:59:04]       sscanf plugin loaded.     
+
+[20:59:04]          Version:  2.8.3        
+
+[20:59:04]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:59:04]  ===============================
+
+[20:59:04]   Loaded.
+[20:59:04]  Loading plugin: streamer
+[20:59:04] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[20:59:04]   Loaded.
+[20:59:04]  Loaded 3 plugins.
+
+[20:59:04] I couldn't load any gamemode scripts. Please verify your server.cfg
+[20:59:04] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:59:16] filterscripts = ""  (string)
+[20:59:16] 
+[20:59:16] Server Plugins
+[20:59:16] --------------
+[20:59:16]  Loading plugin: mysql
+[20:59:16]  >> plugin.mysql: R41-4 successfully loaded.
+[20:59:16]   Loaded.
+[20:59:16]  Loading plugin: sscanf
+[20:59:16] 
+
+[20:59:16]  ===============================
+
+[20:59:16]       sscanf plugin loaded.     
+
+[20:59:16]          Version:  2.8.3        
+
+[20:59:16]   (c) 2018 Alex "Y_Less" Cole  
+
+[20:59:16]  ===============================
+
+[20:59:16]   Loaded.
+[20:59:16]  Loading plugin: streamer
+[20:59:16] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[20:59:16]   Loaded.
+[20:59:16]  Loaded 3 plugins.
+
+[20:59:16] 
+[20:59:16] Filterscripts
+[20:59:16] ---------------
+[20:59:16]   Loaded 0 filterscripts.
+
+[20:59:16] Starting Server...
+[20:59:16] [INIT] Database
+[20:59:16] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[20:59:16] [INIT] Disable SinglePlayer entities
+[20:59:16] [INIT] World time (Set to 20)
+[20:59:16] [INIT] Weather (ID 2)
+[20:59:16] [INIT] 5 Entrance/Exit Pickups
+[20:59:16] [INIT] Timer
+[20:59:16] [INIT] Clock
+[20:59:16] Server started!
+[20:59:16] 
+-------------------------------------------------------------------
+[20:59:16]  OpenReallife | v21w43a | (C) 2021
+[20:59:16] -------------------------------------------------------------------
+
+[20:59:16] Number of vehicle models: 0
+[20:59:16] Number of Carshop Cars: 10
+[20:59:16] Number of Cars: 12
+[20:59:16] 1
+[20:59:16] 2
+[20:59:16] 3
+[20:59:16] 4
+[20:59:16] 5
+[20:59:16] 6
+[20:59:16] 7
+[20:59:16] 8
+[20:59:16] 9
+[20:59:16] 10
+[20:59:16] 14
+[20:59:16] 15
+[20:59:16] serverVehID: 1, ModelID: 596
+[20:59:16] serverVehID: 2, ModelID: 596
+[20:59:16] serverVehID: 3, ModelID: 596
+[20:59:16] serverVehID: 4, ModelID: 437
+[20:59:16] serverVehID: 5, ModelID: 490
+[20:59:16] serverVehID: 6, ModelID: 490
+[20:59:16] serverVehID: 7, ModelID: 596
+[20:59:16] serverVehID: 8, ModelID: 596
+[20:59:16] serverVehID: 9, ModelID: 596
+[20:59:16] serverVehID: 10, ModelID: 427
+[20:59:16] serverVehID: 11, ModelID: 601
+[20:59:16] Cars loaded
+[20:59:40] [connection] 127.0.0.1:65286 requests connection cookie.
+[20:59:41] [connection] incoming connection: 127.0.0.1:65286 id: 0
+[20:59:41] [join] schanzenlord has joined the server (0:127.0.0.1)
+[20:59:42] Camera triggered
+[20:59:42] OnUserCheck called
+[20:59:42] Retrieve row count. User need login.
+[20:59:55] saveLastPosition()
+[20:59:55] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[20:59:56] saveLastPosition()
+[20:59:56] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[20:59:56] [part] schanzenlord has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:01:15] filterscripts = ""  (string)
+[21:01:15] 
+[21:01:15] Server Plugins
+[21:01:15] --------------
+[21:01:15]  Loading plugin: mysql
+[21:01:15]  >> plugin.mysql: R41-4 successfully loaded.
+[21:01:15]   Loaded.
+[21:01:15]  Loading plugin: sscanf
+[21:01:15] 
+
+[21:01:15]  ===============================
+
+[21:01:15]       sscanf plugin loaded.     
+
+[21:01:15]          Version:  2.8.3        
+
+[21:01:15]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:01:15]  ===============================
+
+[21:01:15]   Loaded.
+[21:01:15]  Loading plugin: streamer
+[21:01:15] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[21:01:15]   Loaded.
+[21:01:15]  Loaded 3 plugins.
+
+[21:01:15] 
+[21:01:15] Filterscripts
+[21:01:15] ---------------
+[21:01:15]   Loaded 0 filterscripts.
+
+[21:01:15] Starting Server...
+[21:01:15] [INIT] Database
+[21:01:15] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[21:01:15] [INIT] Disable SinglePlayer entities
+[21:01:15] [INIT] World time (Set to 21)
+[21:01:15] [INIT] Weather (ID 2)
+[21:01:15] [INIT] 5 Entrance/Exit Pickups
+[21:01:15] [INIT] Timer
+[21:01:15] [INIT] Clock
+[21:01:15] Server started!
+[21:01:15] 
+-------------------------------------------------------------------
+[21:01:15]  OpenReallife | v21w43a | (C) 2021
+[21:01:15] -------------------------------------------------------------------
+
+[21:01:15] Number of vehicle models: 0
+[21:01:15] Number of Carshop Cars: 10
+[21:01:15] Number of Cars: 12
+[21:01:15] 1
+[21:01:15] 2
+[21:01:15] 3
+[21:01:15] 4
+[21:01:15] 5
+[21:01:15] 6
+[21:01:15] 7
+[21:01:15] 8
+[21:01:15] 9
+[21:01:15] 10
+[21:01:15] 14
+[21:01:15] 15
+[21:01:15] serverVehID: 1, ModelID: 596
+[21:01:15] serverVehID: 2, ModelID: 596
+[21:01:15] serverVehID: 3, ModelID: 596
+[21:01:15] serverVehID: 4, ModelID: 437
+[21:01:15] serverVehID: 5, ModelID: 490
+[21:01:15] serverVehID: 6, ModelID: 490
+[21:01:15] serverVehID: 7, ModelID: 596
+[21:01:15] serverVehID: 8, ModelID: 596
+[21:01:15] serverVehID: 9, ModelID: 596
+[21:01:15] serverVehID: 10, ModelID: 427
+[21:01:15] serverVehID: 11, ModelID: 601
+[21:01:15] Cars loaded
+[21:01:37] [connection] 127.0.0.1:54079 requests connection cookie.
+[21:01:38] [connection] incoming connection: 127.0.0.1:54079 id: 0
+[21:01:38] [join] schanzenlord has joined the server (0:127.0.0.1)
+[21:01:39] Camera triggered
+[21:01:39] OnUserCheck called
+[21:01:39] Retrieve row count. User need login.
+[21:01:47] OnPlayerDisconnect
+[21:01:47] saveLastPosition()
+[21:01:47] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[21:01:47] saveLastPos
+[21:01:47] [part] schanzenlord has left the server (0:1)
+[21:01:49] saveLastPosition()
+[21:02:30] [connection] 127.0.0.1:56142 requests connection cookie.
+[21:02:31] [connection] incoming connection: 127.0.0.1:56142 id: 0
+[21:02:31] [join] schanzenlord has joined the server (0:127.0.0.1)
+[21:02:32] Camera triggered
+[21:02:32] OnUserCheck called
+[21:02:32] Retrieve row count. User need login.
+[21:02:41] saveLastPosition()
+[21:02:41] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[21:02:50] OnPlayerDisconnect
+[21:02:50] saveLastPosition()
+[21:02:50] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[21:02:50] saveLastPos
+[21:02:50] [part] schanzenlord has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:05:33] filterscripts = ""  (string)
+[21:05:33] 
+[21:05:33] Server Plugins
+[21:05:33] --------------
+[21:05:33]  Loading plugin: mysql
+[21:05:33]  >> plugin.mysql: R41-4 successfully loaded.
+[21:05:33]   Loaded.
+[21:05:33]  Loading plugin: sscanf
+[21:05:33] 
+
+[21:05:33]  ===============================
+
+[21:05:33]       sscanf plugin loaded.     
+
+[21:05:33]          Version:  2.8.3        
+
+[21:05:33]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:05:33]  ===============================
+
+[21:05:33]   Loaded.
+[21:05:33]  Loading plugin: streamer
+[21:05:33] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[21:05:33]   Loaded.
+[21:05:33]  Loaded 3 plugins.
+
+[21:05:33] 
+[21:05:33] Filterscripts
+[21:05:33] ---------------
+[21:05:33]   Loaded 0 filterscripts.
+
+[21:05:33] Starting Server...
+[21:05:33] [INIT] Database
+[21:05:33] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[21:05:33] [INIT] Disable SinglePlayer entities
+[21:05:33] [INIT] World time (Set to 21)
+[21:05:33] [INIT] Weather (ID 2)
+[21:05:33] [INIT] 5 Entrance/Exit Pickups
+[21:05:33] [INIT] Timer
+[21:05:33] [INIT] Clock
+[21:05:33] Server started!
+[21:05:33] 
+-------------------------------------------------------------------
+[21:05:33]  OpenReallife | v21w43a | (C) 2021
+[21:05:33] -------------------------------------------------------------------
+
+[21:05:33] Number of vehicle models: 0
+[21:05:33] Number of Carshop Cars: 10
+[21:05:33] Number of Cars: 12
+[21:05:33] 1
+[21:05:33] 2
+[21:05:33] 3
+[21:05:33] 4
+[21:05:33] 5
+[21:05:33] 6
+[21:05:33] 7
+[21:05:33] 8
+[21:05:33] 9
+[21:05:33] 10
+[21:05:33] 14
+[21:05:33] 15
+[21:05:33] serverVehID: 1, ModelID: 596
+[21:05:33] serverVehID: 2, ModelID: 596
+[21:05:33] serverVehID: 3, ModelID: 596
+[21:05:33] serverVehID: 4, ModelID: 437
+[21:05:33] serverVehID: 5, ModelID: 490
+[21:05:33] serverVehID: 6, ModelID: 490
+[21:05:33] serverVehID: 7, ModelID: 596
+[21:05:33] serverVehID: 8, ModelID: 596
+[21:05:33] serverVehID: 9, ModelID: 596
+[21:05:33] serverVehID: 10, ModelID: 427
+[21:05:33] serverVehID: 11, ModelID: 601
+[21:05:33] Cars loaded
+[21:05:55] [connection] 127.0.0.1:61244 requests connection cookie.
+[21:05:56] [connection] incoming connection: 127.0.0.1:61244 id: 0
+[21:05:56] [join] schanzenlord has joined the server (0:127.0.0.1)
+[21:05:57] Camera triggered
+[21:05:57] OnUserCheck called
+[21:05:57] Retrieve row count. User need login.
+[21:06:03] saveLastPosition()
+[21:06:03] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[21:06:15] OnPlayerDisconnect
+[21:06:15] saveLastPosition()
+[21:06:15] Saved last Position: 1582.760009, -2202.239990, 13.546875, 0
+[21:06:15] saveLastPos
+[21:06:15] [part] schanzenlord has left the server (0:1)
