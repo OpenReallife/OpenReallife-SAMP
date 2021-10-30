@@ -762,7 +762,7 @@ ocmd:tp(playerid, params[]) //Teleport to Player
 	return 1;
 }
 
-ocmd:scv(playerid, params[]) //Save spawned vehicle in Database
+ocmd:scv(playerid, params[]) //Save spawned vehicle in Database | INFO: CRASHES DATABASE!
 {
 	new bool:isPrivateVehicle, Float:ownerFactionID, Float:ownerPlayerID;
 	SendClientMessage(playerid, WHITE, "/scv [isPrivateVehicle] [ownerFactionID] [ownerPlayerID]");
@@ -829,7 +829,7 @@ ocmd:jail(playerid, params[]) //Jail Player
 ocmd:stats(playerid, params[])
 {
 	new string[256];
-	format(string, sizeof(string), "Spielder ID:\t %i\nLevel:\t %i\nFraktion ID:\t %i\nLetzte Position:\t [%f][%f][%f]\nRegistrierungsdatum:\t %s", pInfo[playerid][playerID], pInfo[playerid][level], pInfo[playerid][factionID], pInfo[playerid][lastPos][0], pInfo[playerid][lastPos][1], pInfo[playerid][lastPos][2], pInfo[playerid][registerDate]);
+	format(string, sizeof(string), "Spielder ID:\t %i\nLevel:\t %i\nFraktion ID:\t %i\nLetzte Position:\t [%f][%f][%f]\nLetzter Login:\t %s", pInfo[playerid][playerID], pInfo[playerid][level], pInfo[playerid][factionID], pInfo[playerid][lastPos][0], pInfo[playerid][lastPos][1], pInfo[playerid][lastPos][2], pInfo[playerid][lastLogin]);
 
     ShowPlayerDialog(playerid, DIALOG_STATS, DIALOG_STYLE_TABLIST, "Spielerinfo",
 	string,
@@ -870,8 +870,7 @@ ocmd:motor(playerid, params[])
 {
 	new string[32];
 
-	if(GetPlayerState(playerid) != PLAYER_STATE_DRIVER)return
-	    SendClientMessage(playerid, WHITE, "Du bist nicht der Fahrer eines Fahrzeugs.");
+	if(GetPlayerState(playerid) != PLAYER_STATE_DRIVER) return SendClientMessage(playerid, WHITE, "Du bist nicht der Fahrer eines Fahrzeugs.");
 	    
 	new vehID = GetPlayerVehicleID(playerid),
 		tmp_engine,
