@@ -20,8 +20,9 @@
 
 Das Game-Server Repository für den OpenReallife SA:MP Server. :rocket:
 
-Server IP:
-[5.83.173.57:55800](samp://5.83.173.57:55800)
+#### Öffentlicher Server
+Server Name: ``OpenReallife | Version [v]``
+Server IP: ``[5.83.173.57:55800](samp://5.83.173.57:55800)``
 
 
 ## Zielsetzung
