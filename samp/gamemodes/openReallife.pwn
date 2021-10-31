@@ -19,6 +19,7 @@
 #include <sscanf2>
 #include <a_mysql>
 #include <streamer>
+#include <requests>
 
 #include "../include/mysql_connect.inc" // Database Auth Information
 

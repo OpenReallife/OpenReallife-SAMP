@@ -20,6 +20,9 @@
 
 Das Game-Server Repository für den OpenReallife SA:MP Server. :rocket:
 
+Server IP:
+[5.83.173.57:55800](samp://5.83.173.57:55800)
+
 
 ## Zielsetzung
 
@@ -32,7 +35,6 @@ OpenReallife SAMP is open to contributions, but I recommend creating an issue or
 
 Please read [CONTRIBUTING.md](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md) for details on this project.
 
-
-## How to run locally
+## Lokalen Server aufsetzen
 
 Klicke [hier](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md#quickstart-local-pawno-development) um zu lernen, wie man damit lokal arbeitet.

@@ -46468,3 +46468,94 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [21:51:01] Saved Position: 1584.885986, -1627.168701, 13.764458, 0
 [21:51:01] saveLastPos
 [21:51:01] [part] chrisslfissl has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:10:21] 
+[00:10:21] Server Plugins
+[00:10:21] --------------
+[00:10:21]  Loading plugin: mysql
+[00:10:21]  >> plugin.mysql: R41-4 successfully loaded.
+[00:10:21]   Loaded.
+[00:10:21]  Loading plugin: sscanf
+[00:10:21] 
+
+[00:10:21]  ===============================
+
+[00:10:21]       sscanf plugin loaded.     
+
+[00:10:21]          Version:  2.8.3        
+
+[00:10:21]   (c) 2018 Alex "Y_Less" Cole  
+
+[00:10:21]  ===============================
+
+[00:10:21]   Loaded.
+[00:10:21]  Loading plugin: streamer
+[00:10:21] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[00:10:21]   Loaded.
+[00:10:21]  Loading plugin: requests
+[00:10:21]   Failed.
+[00:10:21]  Loaded 3 plugins.
+
+[00:10:21] 
+[00:10:21] Filterscripts
+[00:10:21] ---------------
+[00:10:21]   Loading filterscript 'vspawner.amx'...
+[00:10:21] 
+--Admin Vehicle Spawner Loaded
+
+[00:10:21]   Loaded 1 filterscripts.
+
+[00:10:21] Starting Server...
+[00:10:22] [INIT] Database
+[00:10:22] [DATABASE]: Connection established to 'ni6595017_1_DB'
+[00:10:22] [INIT] Disable SinglePlayer entities
+[00:10:22] [INIT] World time (Set to 0)
+[00:10:22] [INIT] Weather (ID 2)
+[00:10:22] [INIT] 5 Entrance/Exit Pickups
+[00:10:22] [INIT] Timer
+[00:10:22] [INIT] Clock
+[00:10:22] Server started!
+[00:10:22] 
+-------------------------------------------------------------------
+[00:10:22]  OpenReallife | v21w43a | (C) 2021
+[00:10:22] -------------------------------------------------------------------
+
+[00:10:22] Number of vehicle models: 0
+[00:10:22] Number of Carshop Cars: 10
+[00:10:22] Number of Cars: 12
+[00:10:22] 1
+[00:10:22] 2
+[00:10:22] 3
+[00:10:22] 4
+[00:10:22] 5
+[00:10:22] 6
+[00:10:22] 7
+[00:10:22] 8
+[00:10:22] 9
+[00:10:22] 10
+[00:10:22] 14
+[00:10:22] 15
+[00:10:22] serverVehID: 1, ModelID: 596
+[00:10:22] serverVehID: 2, ModelID: 596
+[00:10:22] serverVehID: 3, ModelID: 596
+[00:10:22] serverVehID: 4, ModelID: 437
+[00:10:22] serverVehID: 5, ModelID: 490
+[00:10:22] serverVehID: 6, ModelID: 490
+[00:10:22] serverVehID: 7, ModelID: 596
+[00:10:22] serverVehID: 8, ModelID: 596
+[00:10:22] serverVehID: 9, ModelID: 596
+[00:10:22] serverVehID: 10, ModelID: 427
+[00:10:22] serverVehID: 11, ModelID: 601
+[00:10:22] Cars loaded
+Console input: #include <requests>#include <requests>
