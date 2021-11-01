@@ -19,7 +19,7 @@
 ## 🌍 OpenReallife SA:MP
 
 <p align="center">
-<img height=400 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/Ingame.png"/>
+<img height=600 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/Ingame.png"/>
 </p>
 
 Das Game-Server Repository für den OpenReallife SA:MP Server. :rocket:
