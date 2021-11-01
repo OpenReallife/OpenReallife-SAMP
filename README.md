@@ -3,7 +3,7 @@
 
 </p></a>
 <p align="center">
-  <strong>Create the best Reallife SA:MP Server while working on an OpenSoruce Project! :rocket:</strong>
+  <strong>🌍 OpenReallife SA:MP Server</strong>
 </p>
 
 <h3 align="center">
@@ -35,9 +35,9 @@ Dieses Projekt verfolgt das Ziel, einen SA:MP Reallife Server als OpenSource Pro
 
 ## Contributions
 
-OpenReallife SAMP is open to contributions, but I recommend creating an issue or replying in a comment to let me know what you are working on first that way we don't overwrite each other.
+OpenReallife WEB ist offen für "Contributions".
 
-Please read [CONTRIBUTING.md](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md) for details on this project.
+Falls du mithelfen willst, lies dir bitte zuerst die [CONTRIBUTING.md](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md) für dieses Projekt durch.
 
 ## Lokalen Server aufsetzen
 
