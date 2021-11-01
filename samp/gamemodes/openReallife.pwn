@@ -216,9 +216,9 @@ forward saveCurrentVehicle(playerid, isPrivateVehicle, ownerFactionID, ownerPlay
 
 main()
 {
-	print("\n-------------------------------------------------------------------");
+	print("-------------------------------------------------------------------");
 	print(" " DEVELOPER_NAME " | " SCRIPT_VERSION " | (C) " COPYRIGHT_YEAR);
-	print("-------------------------------------------------------------------\n");
+	print("-------------------------------------------------------------------");
 }
 
 
@@ -440,13 +440,13 @@ public OnUserCheck(playerid)
 	if (row_count == 0)
 	{
 	    printf("Couldn't retrieve row count. User need to register.");
-	    format(globalString, sizeof(globalString), "{33AA33}Willkommen auf OpenReallife %s!\n\n {FEFEFE}Bitte wï¿½hle ein Passwort um dich zu registrieren.", globalUsername);
+	    format(globalString, sizeof(globalString), "{33AA33}Willkommen auf OpenReallife %s!\n\n {FEFEFE}Bitte wähle ein Passwort um dich zu registrieren.", globalUsername);
 	    ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_INPUT, "Auf OpenReallife registrieren", globalString, "{0069FF}Registrieren", "Abbrechen");
 	}
 	else if (row_count == 1)
 	{
 	    printf("Retrieve row count. User need login.");
-	    format(globalString, sizeof(globalString), "{33AA33}Willkommen zurï¿½ck auf OpenReallife %s!\n\n {FEFEFE}Bitte gib dein Passwort ein um dich einzuloggen.", globalUsername);
+	    format(globalString, sizeof(globalString), "{33AA33}Willkommen zurück auf OpenReallife %s!\n\n {FEFEFE}Bitte gib dein Passwort ein um dich einzuloggen.", globalUsername);
 	    ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Auf OpenReallife einloggen", globalString, "{0069FF}Einloggen", "Abbrechen");
 	}
 	else
@@ -730,7 +730,7 @@ ocmd:setweather(playerid, params[]) //Set Weather
 
 	if(pInfo[playerid][isAdmin] == true && isOnDuty == true)
 	{
-	    if(setWeatherID > 20) return SendClientMessage(playerid, WHITE, "Wetter IDs nur von [0-20] mï¿½glich.");
+	    if(setWeatherID > 20) return SendClientMessage(playerid, WHITE, "Wetter IDs nur von [0-20] möglich.");
 		SetWeather(setWeatherID);
 		format(string, sizeof(string), "Wetter auf ID %i gesetzt.", setWeatherID);
 		SendClientMessage(playerid, WHITE, string);
@@ -790,9 +790,9 @@ ocmd:wanted(playerid, params[]) //Give Player Wanted
 		}
 
 		
-		format(string, sizeof(string), "{FF9600}[WANTED INFO] {FEFEFE}Officer %s hat dir {FF9600}%i Wanted(s) {FEFEFE}gegeben. Begrï¿½ndung: %s ", ownName, wanteds, reason);
+		format(string, sizeof(string), "{FF9600}[WANTED INFO] {FEFEFE}Officer %s hat dir {FF9600}%i Wanted(s) {FEFEFE}gegeben. Begründung: %s ", ownName, wanteds, reason);
 		SendClientMessage(toPlayerID, WHITE, string);
-		format(string, sizeof(string), "{2800FF}[LSPD INFO] {FEFEFE}Du hast %s [%i] {2800FF}%i Wanted(s) {FEFEFE}gegeben. Begrï¿½ndung: %s ", pName, toPlayerID, wanteds, reason);
+		format(string, sizeof(string), "{2800FF}[LSPD INFO] {FEFEFE}Du hast %s [%i] {2800FF}%i Wanted(s) {FEFEFE}gegeben. Begründung: %s ", pName, toPlayerID, wanteds, reason);
 		SendClientMessage(playerid, WHITE, string);
 	}
 	else
@@ -813,9 +813,9 @@ ocmd:jail(playerid, params[]) //Jail Player
 		GetPlayerName(playerid, ownName, sizeof(ownName));
 		pInfo[toPlayerID][wantedLevel] += wanteds;
 
-		format(string, sizeof(string), "{FF9600}[WANTED INFO] {FEFEFE}Officer %s hat dir {FF9600}%i Wanted(s) {FEFEFE}gegeben. Begrï¿½ndung: %s ", ownName, wanteds, reason);
+		format(string, sizeof(string), "{FF9600}[WANTED INFO] {FEFEFE}Officer %s hat dir {FF9600}%i Wanted(s) {FEFEFE}gegeben. Begründung: %s ", ownName, wanteds, reason);
 		SendClientMessage(toPlayerID, WHITE, string);
-		format(string, sizeof(string), "{2800FF}[LSPD INFO] {FEFEFE}Du hast %s [%i] {2800FF}%i Wanted(s) {FEFEFE}gegeben. Begrï¿½ndung: %s ", pName, toPlayerID, wanteds, reason);
+		format(string, sizeof(string), "{2800FF}[LSPD INFO] {FEFEFE}Du hast %s [%i] {2800FF}%i Wanted(s) {FEFEFE}gegeben. Begründung: %s ", pName, toPlayerID, wanteds, reason);
 		SendClientMessage(playerid, WHITE, string);
 	}
 	else
@@ -992,7 +992,7 @@ ocmd:carlockoutside(playerid, params[])
 	}
 	else
 	{
-	    SendClientMessage(playerid, WHITE, "Du hast keinen Schlï¿½ssel fï¿½r das Fahrzeug.");
+	    SendClientMessage(playerid, WHITE, "Du hast keinen Schlüssel für das Fahrzeug.");
 
 		if(GetPlayerWeapon(playerid) == 4) //Knife as Lockpick
 		{
@@ -1112,7 +1112,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 	if (strcmp("/bb", cmdtext, true, 10) == 0)
 	{
 	    new vehID = GetPlayerVehicleID(playerid);
-		if(GetVehicleModel(vehID) != 508) return SendClientMessage(playerid, WHITE, "Du benï¿½tigst einen Wohnwagen");
+		if(GetVehicleModel(vehID) != 508) return SendClientMessage(playerid, WHITE, "Du benötigst einen Wohnwagen");
 		PlayAudioStreamForPlayer(playerid, "http://inspiredprogrammer.com/api/BBIntro.mp3", 0, 0, 0, 10, 0);
 		return 1;
 	}
@@ -1127,7 +1127,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 	{
 		if (strcmp(cmdtext, "/gate", true) == 0)
 	    {
-            if(!IsPlayerInRangeOfPoint(playerid, 10.0, 1544.70032, -1630.83423, 13.10000)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+            if(!IsPlayerInRangeOfPoint(playerid, 10.0, 1544.70032, -1630.83423, 13.10000)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(pdGate, 1544.70032, -1630.83423, 13.10000, 5.0, 0.00000, 0.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 1544.70032, -1630.83423, 13.10000);
 	        SendClientMessage(playerid, 0xFF000000, "Gate offen");
@@ -1136,7 +1136,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 
 	   	if (strcmp(cmdtext, "/gatec", true) == 0)
 	    {
-            if(!IsPlayerInRangeOfPoint(playerid, 10.0, 1544.70032, -1630.83423, 13.10000)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+            if(!IsPlayerInRangeOfPoint(playerid, 10.0, 1544.70032, -1630.83423, 13.10000)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(pdGate, 1544.70032, -1630.83423, 13.10000, 5.0, 0.00000, 90.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 1544.70032, -1630.83423, 13.10000);
 	        SendClientMessage(playerid, 0xFF000000, "Gate geschlossen.");
@@ -1145,91 +1145,91 @@ public OnPlayerCommandText(playerid, cmdtext[])
 	    
 	   	if (strcmp(cmdtext, "/do", true) == 0)
 	    {
-		 	if(!IsPlayerInRangeOfPoint(playerid, 5.0, 244.74249, 72.50200, 1003.84802)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+		 	if(!IsPlayerInRangeOfPoint(playerid, 5.0, 244.74249, 72.50200, 1003.84802)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(officeDoor, 244.74249, 72.50200, 1003.84802, 5.0, 0.00000, 0.00000, 0.00000);
 			PlayerPlaySound(playerid, 12201, 244.74249, 72.50200, 1003.84802);
-	        SendClientMessage(playerid, WHITE, "Tï¿½r offen");
+	        SendClientMessage(playerid, WHITE, "Tür offen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/dc", true) == 0)
 	    {
-            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 244.74249, 72.50200, 1003.84802))return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 244.74249, 72.50200, 1003.84802))return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(officeDoor, 246.40251, 72.50202, 1003.84802, 5.0, 0.00000, 0.00000, 0.00000);
 			PlayerPlaySound(playerid, 12201, 244.74249, 72.50200, 1003.84802);
-	        SendClientMessage(playerid, WHITE, "Tï¿½r geschlossen");
+	        SendClientMessage(playerid, WHITE, "Tür geschlossen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/jd1", true) == 0)
 	    {
-	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 76.8480, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 76.8480, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(jailDoor1, 266.30710, 76.8480, 1001.27350, 5.0, 0.00000, 0.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 266.30710, 76.8480, 1001.27350);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r 1 offen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür 1 offen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/jdc1", true) == 0)
 	    {
-            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 78.46800, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 78.46800, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(jailDoor1, 266.30710, 78.46800, 1001.27350, 5.0, 0.00000, 0.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 266.30710, 76.8480, 1001.27350);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r 1 geschlossen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür 1 geschlossen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/jd2", true) == 0)
 	    {
-	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 81.2610, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 81.2610, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(jailDoor2, 266.30710, 81.2610, 1001.27350, 5.0, 0.00000, 0.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 266.30710, 81.2610, 1001.27350);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r 2 offen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür 2 offen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/jdc2", true) == 0)
 	    {
-            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 82.96800, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 82.96800, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(jailDoor2, 266.30710, 82.96800, 1001.27350, 5.0, 0.00000, 0.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 266.30710, 81.2610, 1001.27350);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r 2 geschlossen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür 2 geschlossen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/jd3", true) == 0)
 	    {
-	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 85.7408, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 85.7408, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(jailDoor3, 266.30710, 85.7408, 1001.27350, 5.0, 0.00000, 0.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 266.30710, 85.7408, 1001.27350);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r 3 offen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür 3 offen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/jdc3", true) == 0)
 	    {
-            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 87.46800, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 266.30710, 87.46800, 1001.27350)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(jailDoor3, 266.30710, 87.46800, 1001.27350, 5.0, 0.00000, 0.00000, 90.00000);
 			PlayerPlaySound(playerid, 12201, 266.30710, 85.7408, 1001.27350);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r 3 geschlossen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür 3 geschlossen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/bjd", true) == 0)
 	    {
-	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 256.3934, 85.7177, 1002.6555)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+	        if(!IsPlayerInRangeOfPoint(playerid, 5.0, 256.3934, 85.7177, 1002.6555)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(bigJailDoor, 256.3934, 85.7177, 1002.6555, 5.0, 0.00000, 0.00000, 0.00000);
 			PlayerPlaySound(playerid, 12201, 258.03339, 85.71773, 1002.65552);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r groï¿½ offen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür groß offen");
 	        return 1;
 	    }
 
 	   	if (strcmp(cmdtext, "/bjdc", true) == 0)
 	    {
-            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 258.03339, 85.71773, 1002.65552)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nï¿½he!");
+            if(!IsPlayerInRangeOfPoint(playerid, 5.0, 258.03339, 85.71773, 1002.65552)) return SendClientMessage(playerid, WHITE, "Du bist nicht in der nähe!");
 			MoveObject(bigJailDoor, 258.03339, 85.71773, 1002.65552, 5.0, 0.00000, 0.00000, 0.00000);
 			PlayerPlaySound(playerid, 12201, 258.03339, 85.71773, 1002.65552);
-	        SendClientMessage(playerid, WHITE, "Gefï¿½ngnistï¿½r groï¿½ geschlossen");
+	        SendClientMessage(playerid, WHITE, "Gefängnistür groß geschlossen");
 	        return 1;
 	    }
 
@@ -1301,7 +1301,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 	        //Sell procedure
 	        new string[256];
 	        SetPVarInt(playerid, "buyCarID", i);
-	        format(string, sizeof(string), "Mï¿½chten Sie das Fahrzeug fï¿½r %i$ kaufen? Kilometerstand: %ikm", csCars[i][vPrice], csCars[i][vOdometer]);
+	        format(string, sizeof(string), "Möchten Sie das Fahrzeug für %i$ kaufen? Kilometerstand: %ikm", csCars[i][vPrice], csCars[i][vOdometer]);
 	        ShowPlayerDialog(playerid, DIALOG_CARSHOP, DIALOG_STYLE_MSGBOX, "Autohaus", string, "Ja", "Nein");
 	        break;
 		}
@@ -1561,7 +1561,7 @@ public OnPasswordResponse(playerid)
 	{
 	    //Password false
 	    SendClientMessage(playerid, RED_BRIGHT, "Falsches Passwort. Bitte erneut versuchen.");
-	    format(globalString, sizeof(globalString), "{33AA33}Willkommen zurï¿½ck auf OpenReallife %s!\n\n {FEFEFE}Bitte gib dein Passwort ein um dich einzuloggen.", globalUsername);
+	    format(globalString, sizeof(globalString), "{33AA33}Willkommen zurück auf OpenReallife %s!\n\n {FEFEFE}Bitte gib dein Passwort ein um dich einzuloggen.", globalUsername);
 	    ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Auf OpenReallife einloggen", globalString, "{0069FF}Einloggen", "Abbrechen");
 	}
 	return 1;
@@ -1626,7 +1626,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	        else
 	        {
 	            SendClientMessage(playerid, RED_BRIGHT, "Bitte gib dein Passwort ein.");
-       		    format(globalString, sizeof(globalString), "{33AA33}Willkommen zurï¿½ck auf OpenReallife %s!\n\n {FEFEFE}Bitte gib dein Passwort ein um dich einzuloggen.", globalUsername);
+       		    format(globalString, sizeof(globalString), "{33AA33}Willkommen zurück auf OpenReallife %s!\n\n {FEFEFE}Bitte gib dein Passwort ein um dich einzuloggen.", globalUsername);
 	    		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Auf OpenReallife einloggen", globalString, "{0069FF}Einloggen", "Abbrechen");
 			}
 		}
@@ -1647,7 +1647,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		    if(GetPlayerMoney(playerid) < csCars[id][vPrice])
 		    {
 		        RemovePlayerFromVehicle(playerid);
-		    	SendClientMessage(playerid, WHITE, "Du hast nicht genï¿½gend Geld.");
+		    	SendClientMessage(playerid, WHITE, "Du hast nicht genügend Geld.");
 		    	return 1;
 			}
 			else

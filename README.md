@@ -18,17 +18,20 @@
 
 ## 🌍 OpenReallife SA:MP
 
+<p align="center">
+<img height=400 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/Ingame.png"/>
+</p>
+
 Das Game-Server Repository für den OpenReallife SA:MP Server. :rocket:
 
 #### Öffentlicher Server
-Server Name: ``OpenReallife | Version [v]`` </br>
-Server IP: ``5.83.173.57:55800``
 
+Server Name: `OpenReallife | Version [v]` </br>
+Server IP: `5.83.173.57:55800`
 
 ## Zielsetzung
 
 Dieses Projekt verfolgt das Ziel, einen SA:MP Reallife Server als OpenSource Projekt bereitzustellen.
-
 
 ## Contributions
 
