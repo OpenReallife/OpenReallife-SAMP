@@ -16,7 +16,7 @@
 
 ---
 
-## OpenReallife SA:MP
+## 🌍 OpenReallife SA:MP
 
 Das Game-Server Repository für den OpenReallife SA:MP Server. :rocket:
 
