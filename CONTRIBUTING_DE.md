@@ -1,9 +1,9 @@
 # Contributing to OpenReallife SA:MP
 
-Wir freuen uns über deinen Beitrag! Wir möchten den Beitrag zu diesem Projekt so einfach und transparent wie möglich gestalten:
+Wir freuen uns über deinen Beitrag! Deswegen möchten wir den Beitrag zu diesem Projekt so einfach und transparent wie möglich gestalten:
 
 - Ein Problem melden
-- Diskutieren Sie den aktuellen Stand des Codes
+- Den aktuellen Stand des Codes diskutieren
 - Einreichen eines Fixes
 - Neue Funktionen vorschlagen
 - Ein Betreuer werden
