@@ -10,41 +10,41 @@ We love your input! We want to make contributing to this project as easy and tra
 
 ## Quickstart Local Pawno Development
 
-Nachfolgend wird erklärt, wie man einen SA:MP Development Server lokal aufsetzt und startet.
+The following explains how to set up and start an SA:MP Development Server locally.
 
 ## Server konfigurieren
 
-Navigiere zu `/samp`
+Navigate to `/samp`
 
-### 1. Datei server.cfg überprüfen
+### 1. Check server.cfg file
 
-- Öffne `server.cfg`
-- In der Zeile `gamemode0` sollte folgendes stehen: `gamemode0 openReallife`
-- In der Zeile `plugins` sollte folgendes stehen: `plugins mysql sscanf streamer`
+- Open `server.cfg`
+- In the line `gamemode0` should be: `gamemode0 openReallife`
+- In the line `plugins` should be: `plugins mysql sscanf streamer`
 
-### 2. Lokale MySQL-Datenbank aufsetzen
+### 2. Set up local MySQL database
 
-Klicke [hier](https://www.javatpoint.com/creating-mysql-database-with-xampp) um zu lernen, wie man lokal eine MySQL-Datenbank mit XAMPP aufsetzt
+Click [here](https://www.javatpoint.com/creating-mysql-database-with-xampp) to learn how to set up a local MySQL database with XAMPP.
 
-- Navigiere zu `PhpMyAdmin`
-- Öffne den Tab `Import`
-- Importiere die Datenbank-Datei `openReallife_DB.sql` ([Datei](https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/openReallife_DB.sql))
+- Navigate to `PhpMyAdmin`
+- Open the `Import` tab
+- Import the database file `openReallife_DB.sql` ([File](https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/openReallife_DB.sql))
   </br>
   </br>
   <img height=500 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SetupMySQL.png"/>
 
-  - Es wird eine Datenbank mit dem Namen `ni6595017_1_DB` erstellt
-  - Diese beinhaltet die Tabellen: `carshop`, `faction`, `user`, `vehicle`
+  - A database with the name `ni6595017_1_DB` is created
+  - This contains the tables: `carshop`, `faction`, `user`, `vehicle`
     </br>
     </br>
     <img height=200 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/DB.png"/>
 
-### 3. Datei mysql_connect.inc erstellen
+### 3. Create file mysql_connect.inc
 
-- Navigiere zu `/samp/include`
-- Erstelle eine Datei mit den Namen `mysql_connect.inc`
-- Öffne die Datei `mysql_connect.inc`
-- Konfiguriere den Code:
+- Navigate to `/samp/include`
+- Create a file with the name `mysql_connect.inc`
+- Open the file `mysql_connect.inc`
+- Configure the code:
 
 ```c++
     /*
@@ -57,25 +57,25 @@ Klicke [hier](https://www.javatpoint.com/creating-mysql-database-with-xampp) um 
     #define SQL_PASSWORD [DATABASE PASSWORT]
 ```
 
-- Datei Speichern
+- Save file
 
-## Server starten
+## Start server
 
-Navigiere zu `/samp`
+Navigate to `/samp`
 
-- Starte `samp-server.exe`
-- Überprüfe, ob der Server korrekt gestartet wurde
+- Start `samp-server.exe`
+- Check if the server was started correctly
   </br>
   </br>
   <img height=400 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SampServer.png"/>
 
-## Server im Launcher hinzufügen
+## Add server in launcher
 
-- Starte den `San Andreas Multiplayer 0.3.7-R4` Launcher
-- Drücke IconButton `Add Server`
-- Trage die Serverdaten ein: `localhost:7777`
-- Drücke Button `OK`
-- Der Development Server wird in der Serverliste im Tab `Favorites` angezeigt
+- Launch the `San Andreas Multiplayer 0.3.7-R4` Launcher
+- Press IconButton `Add Server`
+- Enter the server data: `localhost:7777`
+- Press `OK` Button
+- The development server will be displayed in the server list in the `Favorites` tab.
   </br>
   </br>
   <img height=400 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SAMPLauncher.png"/>

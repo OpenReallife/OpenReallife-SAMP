@@ -13,7 +13,7 @@
   <span> · </span>
   <a href="#">Documentation</a>
   <span> · </span>
-  <a href="https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/README_DE.md">Readme DE</a>
+  <a href="https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/README.md">Readme EN</a>
 </h3>
 
 ---
@@ -24,23 +24,23 @@
 <img height=600 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/Ingame.png"/>
 </p>
 
-The game server repository for the OpenReallife SA:MP server. :rocket:
+Das Game-Server Repository für den OpenReallife SA:MP Server. :rocket:
 
-#### Public server
+#### Öffentlicher Server
 
 Server Name: `OpenReallife | Version [v]` </br>
 Server IP: `5.83.173.57:55800`
 
-## Objective
+## Zielsetzung
 
-This project aims to provide a SA:MP Reallife server as an open source project.
+Dieses Projekt verfolgt das Ziel, einen SA:MP Reallife Server als OpenSource Projekt bereitzustellen.
 
 ## Contributions
 
-OpenReallife WEB is open for contributions.
+OpenReallife WEB ist offen für "Contributions".
 
-If you want to contribute, please read the [CONTRIBUTING.md](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md) for this project first.
+Falls du mithelfen willst, lies dir bitte zuerst die [CONTRIBUTING.md](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING_DE.md) für dieses Projekt durch.
 
-## Set up local server
+## Lokalen Server aufsetzen
 
-Click [here](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING.md#quickstart-local-pawno-development) to learn how to work with it locally.
+Klicke [hier](https://github.com/OpenReallife/OpenReallife-SAMP/blob/main/CONTRIBUTING_DE.md#quickstart-local-pawno-development) um zu lernen, wie man damit lokal arbeitet.
