@@ -79,3 +79,10 @@ Navigiere zu `/samp`
   </br>
   </br>
   <img height=400 src="https://raw.githubusercontent.com/OpenReallife/OpenReallife-SAMP/main/SAMPLauncher.png"/>
+
+## Programmieren mit Pawno
+
+Navigiere zu `/samp/pawno`
+
+- Starte `pawno.exe`
+- Öffne die Datei: `openReallife.pwn`
