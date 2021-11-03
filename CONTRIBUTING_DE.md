@@ -1,12 +1,12 @@
 # Contributing to OpenReallife SA:MP
 
-We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
+Wir freuen uns über deinen Beitrag! Wir möchten den Beitrag zu diesem Projekt so einfach und transparent wie möglich gestalten:
 
-- Reporting an issue
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
-- Becoming a maintainer
+- Ein Problem melden
+- Diskutieren Sie den aktuellen Stand des Codes
+- Einreichen eines Fixes
+- Neue Funktionen vorschlagen
+- Ein Betreuer werden
 
 ## Quickstart Local Pawno Development
 
