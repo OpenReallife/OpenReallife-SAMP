@@ -44,7 +44,7 @@ Klicke [hier](https://www.javatpoint.com/creating-mysql-database-with-xampp) um 
 - Navigiere zu `/samp/include`
 - Erstelle eine Datei mit den Namen `mysql_connect.inc`
 - Öffne die Datei `mysql_connect.inc`
-- Konfiguriere den Code:
+- Konfiguriere den Code mit deinem Usernamen und Passwort:
 
 ```c++
     /*
@@ -53,8 +53,8 @@ Klicke [hier](https://www.javatpoint.com/creating-mysql-database-with-xampp) um 
 
     #define SQL_HOSTNAME "localhost"
     #define SQL_DATABASE "ni6595017_1_DB"
-    #define SQL_USERNAME [DATABASE USERNAME]
-    #define SQL_PASSWORD [DATABASE PASSWORT]
+    #define SQL_USERNAME "DEIN DATENBANK USERNAME"
+    #define SQL_PASSWORD "DEIN DATENBANK PASSWORT"
 ```
 
 - Datei Speichern
